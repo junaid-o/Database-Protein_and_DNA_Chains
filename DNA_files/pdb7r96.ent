@@ -1,0 +1,2046 @@
+HEADER    DNA                                     28-JUN-21   7R96              
+TITLE     SELF-ASSEMBLED 3D DNA HEXAGONAL TENSEGRITY TRIANGLE                   
+CAVEAT     7R96    MATTHEWS' COEFFICIENT (11.53) IS ABNORMAL. MAY HAVE CRYSTAL  
+CAVEAT   2 7R96    PACKING PROBLEM.                                             
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: DNA (5'-                                                   
+COMPND   3 D(*AP*GP*GP*CP*AP*GP*CP*CP*TP*GP*TP*AP*CP*GP*GP*AP*CP*AP*TP*CP*A)-   
+COMPND   4 3');                                                                 
+COMPND   5 CHAIN: A;                                                            
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: DNA (5'-D(P*CP*CP*GP*TP*AP*CP*A)-3');                      
+COMPND   9 CHAIN: B;                                                            
+COMPND  10 ENGINEERED: YES;                                                     
+COMPND  11 MOL_ID: 3;                                                           
+COMPND  12 MOLECULE: DNA (5'-D(P*GP*GP*CP*TP*GP*C)-3');                         
+COMPND  13 CHAIN: C;                                                            
+COMPND  14 ENGINEERED: YES;                                                     
+COMPND  15 MOL_ID: 4;                                                           
+COMPND  16 MOLECULE: DNA (5'-D(*TP*CP*TP*GP*AP*TP*GP*T)-3');                    
+COMPND  17 CHAIN: D;                                                            
+COMPND  18 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE   4 ORGANISM_TAXID: 32630;                                               
+SOURCE   5 MOL_ID: 2;                                                           
+SOURCE   6 SYNTHETIC: YES;                                                      
+SOURCE   7 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE   8 ORGANISM_TAXID: 32630;                                               
+SOURCE   9 MOL_ID: 3;                                                           
+SOURCE  10 SYNTHETIC: YES;                                                      
+SOURCE  11 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  12 ORGANISM_TAXID: 32630;                                               
+SOURCE  13 MOL_ID: 4;                                                           
+SOURCE  14 SYNTHETIC: YES;                                                      
+SOURCE  15 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  16 ORGANISM_TAXID: 32630                                                
+KEYWDS    TENSEGRITY TRIANGLE, SYNTHETIC CONSTRUCT, SELF-ASSEMBLY, DNA          
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    B.LU,S.VECCHIONI,Y.P.OHAYON,R.SHA,C.MAO,N.C.SEEMAN                    
+REVDAT   2   03-NOV-21 7R96    1       JRNL                                     
+REVDAT   1   20-OCT-21 7R96    0                                                
+JRNL        AUTH   B.LU,S.VECCHIONI,Y.P.OHAYON,R.SHA,K.WOLOSZYN,B.YANG,C.MAO,   
+JRNL        AUTH 2 N.C.SEEMAN                                                   
+JRNL        TITL   3D HEXAGONAL ARRANGEMENT OF DNA TENSEGRITY TRIANGLES.        
+JRNL        REF    ACS NANO                      V.  15 16788 2021              
+JRNL        REFN                   ESSN 1936-086X                               
+JRNL        PMID   34609128                                                     
+JRNL        DOI    10.1021/ACSNANO.1C06963                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    5.68 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : PHENIX 1.19.2_4158                                   
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : GEOSTD + MONOMER LIBRARY + CDL V1.2           
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 5.68                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 54.22                          
+REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 1.340                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 82.3                           
+REMARK   3   NUMBER OF REFLECTIONS             : 1478                           
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   R VALUE     (WORKING + TEST SET) : NULL                            
+REMARK   3   R VALUE            (WORKING SET) : 0.120                           
+REMARK   3   FREE R VALUE                     : 0.143                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.470                           
+REMARK   3   FREE R VALUE TEST SET COUNT      : 66                              
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).                           
+REMARK   3   BIN  RESOLUTION RANGE  COMPL.    NWORK NFREE   RWORK  RFREE        
+REMARK   3     1 54.2200 -  5.6800    0.82     1412    66  0.1200 0.1430        
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED        : FLAT BULK SOLVENT MODEL                       
+REMARK   3   SOLVENT RADIUS     : 1.11                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.90                                          
+REMARK   3   K_SOL              : 0.07                                          
+REMARK   3   B_SOL              : 87.40                                         
+REMARK   3                                                                      
+REMARK   3  ERROR ESTIMATES.                                                    
+REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.000            
+REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 22.267           
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 251.7                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 333.1                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : NULL                                                 
+REMARK   3    B22 (A**2) : NULL                                                 
+REMARK   3    B33 (A**2) : NULL                                                 
+REMARK   3    B12 (A**2) : NULL                                                 
+REMARK   3    B13 (A**2) : NULL                                                 
+REMARK   3    B23 (A**2) : NULL                                                 
+REMARK   3                                                                      
+REMARK   3  TWINNING INFORMATION.                                               
+REMARK   3   FRACTION: NULL                                                     
+REMARK   3   OPERATOR: NULL                                                     
+REMARK   3                                                                      
+REMARK   3  DEVIATIONS FROM IDEAL VALUES.                                       
+REMARK   3                 RMSD          COUNT                                  
+REMARK   3   BOND      :  0.005            956                                  
+REMARK   3   ANGLE     :  0.765           1467                                  
+REMARK   3   CHIRALITY :  0.038            166                                  
+REMARK   3   PLANARITY :  0.003             42                                  
+REMARK   3   DIHEDRAL  : 38.856            406                                  
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : 4                                          
+REMARK   3   TLS GROUP : 1                                                      
+REMARK   3    SELECTION: (CHAIN 'A' AND RESID 101 THROUGH 121)                  
+REMARK   3    ORIGIN FOR THE GROUP (A): -47.6029  30.6591  16.4316              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   3.4868 T22:   3.3158                                     
+REMARK   3      T33:   1.6880 T12:   0.5136                                     
+REMARK   3      T13:  -0.2103 T23:  -0.0477                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   9.1760 L22:   5.9341                                     
+REMARK   3      L33:   0.6675 L12:   4.1881                                     
+REMARK   3      L13:  -2.3293 L23:  -1.7370                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:   1.6556 S12:   0.3396 S13:   0.9990                       
+REMARK   3      S21:   4.5181 S22:   0.2166 S23:  -0.2207                       
+REMARK   3      S31:   0.2087 S32:   0.7799 S33:  -1.8542                       
+REMARK   3   TLS GROUP : 2                                                      
+REMARK   3    SELECTION: (CHAIN 'B' AND RESID 119 THROUGH 125)                  
+REMARK   3    ORIGIN FOR THE GROUP (A): -50.4721  29.3138  14.0281              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   2.8519 T22:   2.9767                                     
+REMARK   3      T33:   2.0846 T12:   0.3183                                     
+REMARK   3      T13:  -0.4138 T23:  -0.3900                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   8.5687 L22:   0.3287                                     
+REMARK   3      L33:   5.2974 L12:  -0.9309                                     
+REMARK   3      L13:  -4.4147 L23:  -0.3608                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:  -1.3081 S12:  -2.3158 S13:   2.7977                       
+REMARK   3      S21:  -0.7425 S22:   1.7992 S23:  -0.3131                       
+REMARK   3      S31:   0.2391 S32:   1.5887 S33:  -0.9746                       
+REMARK   3   TLS GROUP : 3                                                      
+REMARK   3    SELECTION: (CHAIN 'C' AND RESID 209 THROUGH 214)                  
+REMARK   3    ORIGIN FOR THE GROUP (A): -39.9629  43.2640  27.4845              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   4.1990 T22:   3.4891                                     
+REMARK   3      T33:   2.9668 T12:  -0.8827                                     
+REMARK   3      T13:  -0.0952 T23:   0.3471                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   3.8313 L22:   2.6694                                     
+REMARK   3      L33:   7.5140 L12:  -1.2707                                     
+REMARK   3      L13:   4.9160 L23:   0.0260                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:   1.9324 S12:   0.2025 S13:  -0.1717                       
+REMARK   3      S21:  -3.5638 S22:   2.5114 S23:  -3.7163                       
+REMARK   3      S31:   1.1655 S32:  -3.2279 S33:  -3.8596                       
+REMARK   3   TLS GROUP : 4                                                      
+REMARK   3    SELECTION: (CHAIN 'D' AND RESID 201 THROUGH 208)                  
+REMARK   3    ORIGIN FOR THE GROUP (A): -59.7899  10.6630   2.3081              
+REMARK   3    T TENSOR                                                          
+REMARK   3      T11:   4.5014 T22:   2.4535                                     
+REMARK   3      T33:   4.8820 T12:   1.2325                                     
+REMARK   3      T13:  -2.7310 T23:   0.8722                                     
+REMARK   3    L TENSOR                                                          
+REMARK   3      L11:   2.0097 L22:   2.0264                                     
+REMARK   3      L33:   8.2296 L12:   6.7383                                     
+REMARK   3      L13:  -5.0585 L23:   4.5115                                     
+REMARK   3    S TENSOR                                                          
+REMARK   3      S11:   1.3723 S12:   0.5296 S13:  -8.2387                       
+REMARK   3      S21:   0.4885 S22:   3.5286 S23:  -0.0050                       
+REMARK   3      S31:   1.3107 S32:  -2.2879 S33:  -5.0153                       
+REMARK   3                                                                      
+REMARK   3  NCS DETAILS                                                         
+REMARK   3   NUMBER OF NCS GROUPS : NULL                                        
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK   4                                                                      
+REMARK   4 7R96 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 05-JUL-21.                  
+REMARK 100 THE DEPOSITION ID IS D_1000257816.                                   
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : 14-NOV-20                          
+REMARK 200  TEMPERATURE           (KELVIN) : 100                                
+REMARK 200  PH                             : 9.5                                
+REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : Y                                  
+REMARK 200  RADIATION SOURCE               : APS                                
+REMARK 200  BEAMLINE                       : 17-ID                              
+REMARK 200  X-RAY GENERATOR MODEL          : NULL                               
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
+REMARK 200  WAVELENGTH OR RANGE        (A) : 1.60648                            
+REMARK 200  MONOCHROMATOR                  : NULL                               
+REMARK 200  OPTICS                         : NULL                               
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : PIXEL                              
+REMARK 200  DETECTOR MANUFACTURER          : DECTRIS EIGER X 9M                 
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : AUTOPROC                           
+REMARK 200  DATA SCALING SOFTWARE          : STARANISO                          
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 1486                               
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 5.680                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 54.220                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : NULL                               
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 89.1                               
+REMARK 200  DATA REDUNDANCY                : 19.40                              
+REMARK 200  R MERGE                    (I) : 0.18700                            
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 11.2000                            
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 5.68                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 6.35                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : 57.4                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 17.70                              
+REMARK 200  R MERGE FOR SHELL          (I) : NULL                               
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 0.900                              
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
+REMARK 200 SOFTWARE USED: PHENIX                                                
+REMARK 200 STARTING MODEL: 3GBI                                                 
+REMARK 200                                                                      
+REMARK 200 REMARK: NULL                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 88.00                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 11.5                     
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: AMMONIUM SULFATE, TRIS, ACETIC ACID,     
+REMARK 280  EDTA, COBALT HEXAMMINE, PH 9.5, VAPOR DIFFUSION, HANGING DROP,      
+REMARK 280  TEMPERATURE 293K                                                    
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 63                             
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -Y,X-Y,Z                                                
+REMARK 290       3555   -X+Y,-X,Z                                               
+REMARK 290       4555   -X,-Y,Z+1/2                                             
+REMARK 290       5555   Y,-X+Y,Z+1/2                                            
+REMARK 290       6555   X-Y,X,Z+1/2                                             
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -0.500000 -0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   2  0.866025 -0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   3 -0.500000  0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   3 -0.866025 -0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   3  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   4 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   4  0.000000 -1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   4  0.000000  0.000000  1.000000       32.61350            
+REMARK 290   SMTRY1   5  0.500000  0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   5 -0.866025  0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   5  0.000000  0.000000  1.000000       32.61350            
+REMARK 290   SMTRY1   6  0.500000 -0.866025  0.000000        0.00000            
+REMARK 290   SMTRY2   6  0.866025  0.500000  0.000000        0.00000            
+REMARK 290   SMTRY3   6  0.000000  0.000000  1.000000       32.61350            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DODECAMERIC                       
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
+REMARK 350   BIOMT1   2 -0.500000 -0.866025  0.000000      -62.60300            
+REMARK 350   BIOMT2   2  0.866025 -0.500000  0.000000      108.43158            
+REMARK 350   BIOMT3   2  0.000000  0.000000  1.000000        0.00000            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
+REMARK 350   BIOMT1   3 -0.500000  0.866025  0.000000     -125.20600            
+REMARK 350   BIOMT2   3 -0.866025 -0.500000  0.000000        0.00000            
+REMARK 350   BIOMT3   3  0.000000  0.000000  1.000000        0.00000            
+DBREF  7R96 A  101   121  PDB    7R96     7R96           101    121             
+DBREF  7R96 B  119   125  PDB    7R96     7R96           119    125             
+DBREF  7R96 C  209   214  PDB    7R96     7R96           209    214             
+DBREF  7R96 D  201   208  PDB    7R96     7R96           201    208             
+SEQRES   1 A   21   DA  DG  DG  DC  DA  DG  DC  DC  DT  DG  DT  DA  DC          
+SEQRES   2 A   21   DG  DG  DA  DC  DA  DT  DC  DA                              
+SEQRES   1 B    7   DC  DC  DG  DT  DA  DC  DA                                  
+SEQRES   1 C    6   DG  DG  DC  DT  DG  DC                                      
+SEQRES   1 D    8   DT  DC  DT  DG  DA  DT  DG  DT                              
+CRYST1  125.206  125.206   65.227  90.00  90.00 120.00 P 63          6          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.007987  0.004611  0.000000        0.00000                         
+SCALE2      0.000000  0.009222  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.015331        0.00000                         
+ATOM      1  O5'  DA A 101     -34.745  53.801  30.498  1.00448.53           O  
+ANISOU    1  O5'  DA A 101    72547  52495  45378  -7474   4574 -14274       O  
+ATOM      2  C5'  DA A 101     -34.352  54.959  29.772  1.00449.42           C  
+ANISOU    2  C5'  DA A 101    71290  52328  47141  -7200   5322 -14356       C  
+ATOM      3  C4'  DA A 101     -33.486  55.863  30.631  1.00456.60           C  
+ANISOU    3  C4'  DA A 101    72850  52903  47736  -8242   5304 -15522       C  
+ATOM      4  O4'  DA A 101     -32.708  55.061  31.552  1.00458.32           O  
+ANISOU    4  O4'  DA A 101    74379  53652  46110  -8906   3532 -15943       O  
+ATOM      5  C3'  DA A 101     -32.454  56.677  29.875  1.00458.51           C  
+ANISOU    5  C3'  DA A 101    71673  53251  49287  -7896   4952 -15563       C  
+ATOM      6  O3'  DA A 101     -33.043  57.862  29.346  1.00460.01           O  
+ANISOU    6  O3'  DA A 101    70838  52699  51245  -7701   6906 -15535       O  
+ATOM      7  C2'  DA A 101     -31.437  56.986  30.970  1.00464.37           C  
+ANISOU    7  C2'  DA A 101    73534  53985  48919  -9031   4100 -16683       C  
+ATOM      8  C1'  DA A 101     -31.456  55.691  31.792  1.00462.39           C  
+ANISOU    8  C1'  DA A 101    74767  54267  46656  -9413   2714 -16630       C  
+ATOM      9  N9   DA A 101     -30.374  54.731  31.493  1.00458.72           N  
+ANISOU    9  N9   DA A 101    73995  54701  45594  -8978    405 -16154       N  
+ATOM     10  C8   DA A 101     -29.930  53.737  32.323  1.00458.24           C  
+ANISOU   10  C8   DA A 101    75162  55149  43798  -9492  -1219 -16233       C  
+ATOM     11  N7   DA A 101     -28.959  53.013  31.822  1.00455.09           N  
+ANISOU   11  N7   DA A 101    74093  55451  43372  -8921  -3091 -15706       N  
+ATOM     12  C5   DA A 101     -28.739  53.565  30.571  1.00452.64           C  
+ANISOU   12  C5   DA A 101    72029  55137  44818  -7984  -2672 -15295       C  
+ATOM     13  C6   DA A 101     -27.834  53.237  29.542  1.00449.12           C  
+ANISOU   13  C6   DA A 101    70178  55265  45204  -7081  -3949 -14699       C  
+ATOM     14  N6   DA A 101     -26.952  52.238  29.632  1.00446.79           N  
+ANISOU   14  N6   DA A 101    70014  55609  44139  -6957  -5956 -14419       N  
+ATOM     15  N1   DA A 101     -27.867  53.978  28.413  1.00448.28           N  
+ANISOU   15  N1   DA A 101    68490  55038  46796  -6329  -3056 -14377       N  
+ATOM     16  C2   DA A 101     -28.749  54.977  28.327  1.00451.29           C  
+ANISOU   16  C2   DA A 101    68672  54735  48062  -6451  -1049 -14580       C  
+ATOM     17  N3   DA A 101     -29.651  55.377  29.221  1.00454.56           N  
+ANISOU   17  N3   DA A 101    70267  54499  47948  -7233    338 -15138       N  
+ATOM     18  C4   DA A 101     -29.598  54.624  30.339  1.00455.16           C  
+ANISOU   18  C4   DA A 101    71960  54742  46239  -7998   -564 -15514       C  
+ATOM     19  P    DG A 102     -32.323  58.662  28.150  1.00422.73           P  
+ANISOU   19  P    DG A 102    64169  48094  48356  -6959   6889 -15120       P  
+ATOM     20  OP1  DG A 102     -31.186  59.412  28.732  1.00428.24           O  
+ANISOU   20  OP1  DG A 102    65151  48632  48928  -7736   6412 -16135       O  
+ATOM     21  OP2  DG A 102     -33.371  59.390  27.401  1.00420.82           O  
+ANISOU   21  OP2  DG A 102    62800  47260  49834  -6440   8834 -14522       O  
+ATOM     22  O5'  DG A 102     -31.758  57.512  27.186  1.00417.35           O  
+ANISOU   22  O5'  DG A 102    62627  48501  47444  -5934   4991 -14126       O  
+ATOM     23  C5'  DG A 102     -32.658  56.723  26.403  1.00412.32           C  
+ANISOU   23  C5'  DG A 102    61437  48206  47021  -5064   5158 -13065       C  
+ATOM     24  C4'  DG A 102     -31.932  56.015  25.268  1.00409.00           C  
+ANISOU   24  C4'  DG A 102    59757  48734  46912  -4090   3626 -12245       C  
+ATOM     25  O4'  DG A 102     -30.780  55.307  25.782  1.00409.12           O  
+ANISOU   25  O4'  DG A 102    60475  49282  45689  -4380   1661 -12659       O  
+ATOM     26  C3'  DG A 102     -32.785  55.009  24.503  1.00404.21           C  
+ANISOU   26  C3'  DG A 102    58702  48616  46264  -3258   3537 -11209       C  
+ATOM     27  O3'  DG A 102     -32.916  55.423  23.146  1.00401.50           O  
+ANISOU   27  O3'  DG A 102    56546  48529  47478  -2402   4070 -10364       O  
+ATOM     28  C2'  DG A 102     -32.053  53.663  24.615  1.00405.40           C  
+ANISOU   28  C2'  DG A 102    59354  49568  45113  -3074   1448 -11107       C  
+ATOM     29  C1'  DG A 102     -30.906  53.912  25.588  1.00406.09           C  
+ANISOU   29  C1'  DG A 102    60346  49562  44386  -3899    431 -12063       C  
+ATOM     30  N9   DG A 102     -31.062  53.280  26.899  1.00407.67           N  
+ANISOU   30  N9   DG A 102    62388  49629  42877  -4724    -80 -12609       N  
+ATOM     31  C8   DG A 102     -31.929  53.652  27.895  1.00409.79           C  
+ANISOU   31  C8   DG A 102    63936  49213  42554  -5532   1213 -13160       C  
+ATOM     32  N7   DG A 102     -31.825  52.928  28.974  1.00411.75           N  
+ANISOU   32  N7   DG A 102    65727  49570  41149  -6220    330 -13555       N  
+ATOM     33  C5   DG A 102     -30.815  52.020  28.681  1.00410.22           C  
+ANISOU   33  C5   DG A 102    65221  50142  40501  -5824  -1700 -13211       C  
+ATOM     34  C6   DG A 102     -30.263  50.982  29.474  1.00410.94           C  
+ANISOU   34  C6   DG A 102    66431  50662  39045  -6238  -3406 -13302       C  
+ATOM     35  O6   DG A 102     -30.569  50.654  30.628  1.00413.31           O  
+ANISOU   35  O6   DG A 102    68300  50806  37933  -7088  -3486 -13708       O  
+ATOM     36  N1   DG A 102     -29.255  50.297  28.800  1.00409.45           N  
+ANISOU   36  N1   DG A 102    65340  51144  39089  -5584  -5130 -12829       N  
+ATOM     37  C2   DG A 102     -28.833  50.577  27.523  1.00407.81           C  
+ANISOU   37  C2   DG A 102    63416  51201  40329  -4675  -5175 -12381       C  
+ATOM     38  N2   DG A 102     -27.848  49.805  27.040  1.00405.50           N  
+ANISOU   38  N2   DG A 102    62472  51531  40068  -4169  -6898 -12017       N  
+ATOM     39  N3   DG A 102     -29.343  51.547  26.768  1.00407.71           N  
+ANISOU   39  N3   DG A 102    62368  50864  41678  -4307  -3619 -12268       N  
+ATOM     40  C4   DG A 102     -30.328  52.225  27.411  1.00408.62           C  
+ANISOU   40  C4   DG A 102    63299  50283  41676  -4906  -1948 -12674       C  
+ATOM     41  P    DG A 103     -34.284  55.145  22.350  1.00349.29           P  
+ANISOU   41  P    DG A 103    49230  41968  41515  -1753   5195  -9334       P  
+ATOM     42  OP1  DG A 103     -34.342  56.101  21.221  1.00345.46           O  
+ANISOU   42  OP1  DG A 103    46966  41479  42815  -1226   6135  -8698       O  
+ATOM     43  OP2  DG A 103     -35.380  55.103  23.344  1.00347.30           O  
+ANISOU   43  OP2  DG A 103    50348  40996  40615  -2345   6329  -9665       O  
+ATOM     44  O5'  DG A 103     -34.090  53.669  21.759  1.00349.42           O  
+ANISOU   44  O5'  DG A 103    49074  42985  40706  -1086   3579  -8716       O  
+ATOM     45  C5'  DG A 103     -33.376  53.481  20.536  1.00350.60           C  
+ANISOU   45  C5'  DG A 103    47719  43942  41553   -331   2689  -8133       C  
+ATOM     46  C4'  DG A 103     -32.650  52.147  20.529  1.00353.11           C  
+ANISOU   46  C4'  DG A 103    48411  45009  40747    -89    770  -8146       C  
+ATOM     47  O4'  DG A 103     -32.233  51.824  21.876  1.00355.54           O  
+ANISOU   47  O4'  DG A 103    50371  44987  39730   -852     14  -8987       O  
+ATOM     48  C3'  DG A 103     -33.469  50.960  20.016  1.00349.96           C  
+ANISOU   48  C3'  DG A 103    47937  45120  39912    456    532  -7418       C  
+ATOM     49  O3'  DG A 103     -32.803  50.281  18.908  1.00345.52           O  
+ANISOU   49  O3'  DG A 103    46194  45473  39616   1175   -635  -6934       O  
+ATOM     50  C2'  DG A 103     -33.690  50.057  21.234  1.00350.05           C  
+ANISOU   50  C2'  DG A 103    49728  44895  38379    -61    -94  -7879       C  
+ATOM     51  C1'  DG A 103     -32.642  50.523  22.240  1.00353.26           C  
+ANISOU   51  C1'  DG A 103    51009  44967  38246   -795   -765  -8808       C  
+ATOM     52  N9   DG A 103     -33.136  50.576  23.612  1.00353.90           N  
+ANISOU   52  N9   DG A 103    52802  44396  37268  -1659   -288  -9432       N  
+ATOM     53  C8   DG A 103     -34.204  51.307  24.084  1.00351.83           C  
+ANISOU   53  C8   DG A 103    53056  43382  37242  -2081   1474  -9594       C  
+ATOM     54  N7   DG A 103     -34.404  51.169  25.365  1.00352.99           N  
+ANISOU   54  N7   DG A 103    54840  43091  36189  -2911   1531 -10248       N  
+ATOM     55  C5   DG A 103     -33.407  50.284  25.768  1.00355.75           C  
+ANISOU   55  C5   DG A 103    55777  43958  35432  -3043   -373 -10459       C  
+ATOM     56  C6   DG A 103     -33.126  49.757  27.051  1.00357.37           C  
+ANISOU   56  C6   DG A 103    57635  44084  34067  -3856  -1235 -11035       C  
+ATOM     57  O6   DG A 103     -33.716  49.972  28.117  1.00357.54           O  
+ANISOU   57  O6   DG A 103    59013  43574  33262  -4668   -439 -11553       O  
+ATOM     58  N1   DG A 103     -32.029  48.894  27.020  1.00357.89           N  
+ANISOU   58  N1   DG A 103    57657  44781  33543  -3688  -3225 -10946       N  
+ATOM     59  C2   DG A 103     -31.305  48.587  25.894  1.00356.66           C  
+ANISOU   59  C2   DG A 103    56066  45218  34230  -2843  -4170 -10449       C  
+ATOM     60  N2   DG A 103     -30.282  47.736  26.055  1.00354.79           N  
+ANISOU   60  N2   DG A 103    55975  45464  33364  -2805  -6030 -10436       N  
+ATOM     61  N3   DG A 103     -31.560  49.076  24.690  1.00356.03           N  
+ANISOU   61  N3   DG A 103    54483  45257  35534  -2111  -3343  -9970       N  
+ATOM     62  C4   DG A 103     -32.625  49.916  24.704  1.00355.80           C  
+ANISOU   62  C4   DG A 103    54458  44651  36078  -2263  -1478  -9971       C  
+ATOM     63  P    DC A 104     -31.368  49.556  19.055  1.00309.24           P  
+ANISOU   63  P    DC A 104    41756  41352  34390   1208  -2598  -7358       P  
+ATOM     64  OP1  DC A 104     -30.419  50.355  19.859  1.00317.77           O  
+ANISOU   64  OP1  DC A 104    43345  41985  35408    592  -2900  -8147       O  
+ATOM     65  OP2  DC A 104     -30.976  49.181  17.681  1.00301.85           O  
+ANISOU   65  OP2  DC A 104    39274  41252  34163   1987  -3134  -6763       O  
+ATOM     66  O5'  DC A 104     -31.683  48.197  19.826  1.00304.35           O  
+ANISOU   66  O5'  DC A 104    42494  40781  32363   1053  -3502  -7448       O  
+ATOM     67  C5'  DC A 104     -30.673  47.204  19.949  1.00297.73           C  
+ANISOU   67  C5'  DC A 104    41858  40375  30890   1162  -5275  -7620       C  
+ATOM     68  C4'  DC A 104     -31.258  45.932  20.527  1.00291.84           C  
+ANISOU   68  C4'  DC A 104    42221  39652  29013   1105  -5823  -7497       C  
+ATOM     69  O4'  DC A 104     -31.648  46.184  21.890  1.00297.83           O  
+ANISOU   69  O4'  DC A 104    44573  39744  28844    288  -5430  -7994       O  
+ATOM     70  C3'  DC A 104     -32.519  45.450  19.811  1.00288.25           C  
+ANISOU   70  C3'  DC A 104    41339  39408  28774   1600  -4932  -6815       C  
+ATOM     71  O3'  DC A 104     -32.276  44.305  18.926  1.00277.50           O  
+ANISOU   71  O3'  DC A 104    39198  38768  27472   2262  -5926  -6396       O  
+ATOM     72  C2'  DC A 104     -33.520  45.114  20.927  1.00290.67           C  
+ANISOU   72  C2'  DC A 104    43215  39158  28069   1085  -4391  -6942       C  
+ATOM     73  C1'  DC A 104     -32.751  45.380  22.220  1.00295.88           C  
+ANISOU   73  C1'  DC A 104    45140  39388  27892    288  -5059  -7698       C  
+ATOM     74  N1   DC A 104     -33.553  46.103  23.243  1.00303.81           N  
+ANISOU   74  N1   DC A 104    47333  39642  28457   -451  -3779  -8086       N  
+ATOM     75  C2   DC A 104     -33.347  45.831  24.596  1.00309.19           C  
+ANISOU   75  C2   DC A 104    49622  39999  27858  -1245  -4352  -8636       C  
+ATOM     76  O2   DC A 104     -32.501  44.989  24.918  1.00310.97           O  
+ANISOU   76  O2   DC A 104    50213  40558  27381  -1295  -5969  -8706       O  
+ATOM     77  N3   DC A 104     -34.078  46.502  25.520  1.00315.99           N  
+ANISOU   77  N3   DC A 104    51573  40187  28302  -1971  -3101  -9063       N  
+ATOM     78  C4   DC A 104     -34.979  47.405  25.132  1.00314.32           C  
+ANISOU   78  C4   DC A 104    50849  39561  29017  -1879  -1337  -8932       C  
+ATOM     79  N4   DC A 104     -35.677  48.040  26.079  1.00321.77           N  
+ANISOU   79  N4   DC A 104    52888  39784  29586  -2626    -70  -9415       N  
+ATOM     80  C5   DC A 104     -35.205  47.697  23.754  1.00311.09           C  
+ANISOU   80  C5   DC A 104    48754  39465  29980  -1049   -779  -8278       C  
+ATOM     81  C6   DC A 104     -34.476  47.029  22.852  1.00306.94           C  
+ANISOU   81  C6   DC A 104    47214  39679  29731   -381  -2041  -7888       C  
+ATOM     82  P    DA A 105     -30.970  43.359  19.018  1.00358.89           P  
+ANISOU   82  P    DA A 105    49517  49438  37408   2388  -7831  -6644       P  
+ATOM     83  OP1  DA A 105     -29.747  44.130  18.699  1.00359.21           O  
+ANISOU   83  OP1  DA A 105    48737  49606  38140   2398  -8303  -6941       O  
+ATOM     84  OP2  DA A 105     -31.277  42.177  18.181  1.00347.70           O  
+ANISOU   84  OP2  DA A 105    47484  48586  36041   3008  -8265  -6175       O  
+ATOM     85  O5'  DA A 105     -30.944  42.825  20.527  1.00360.89           O  
+ANISOU   85  O5'  DA A 105    51556  49193  36372   1718  -8526  -7036       O  
+ATOM     86  C5'  DA A 105     -29.794  42.118  21.004  1.00354.62           C  
+ANISOU   86  C5'  DA A 105    51112  48517  35112   1593 -10219  -7284       C  
+ATOM     87  C4'  DA A 105     -30.181  41.008  21.970  1.00350.23           C  
+ANISOU   87  C4'  DA A 105    51909  47770  33393   1296 -10890  -7226       C  
+ATOM     88  O4'  DA A 105     -31.139  41.514  22.935  1.00359.36           O  
+ANISOU   88  O4'  DA A 105    54341  48377  33822    655  -9796  -7411       O  
+ATOM     89  C3'  DA A 105     -30.830  39.777  21.327  1.00340.60           C  
+ANISOU   89  C3'  DA A 105    50334  46886  32193   1909 -11038  -6702       C  
+ATOM     90  O3'  DA A 105     -30.305  38.580  21.911  1.00332.74           O  
+ANISOU   90  O3'  DA A 105    49966  45915  30546   1841 -12516  -6663       O  
+ATOM     91  C2'  DA A 105     -32.309  39.956  21.652  1.00347.08           C  
+ANISOU   91  C2'  DA A 105    51899  47367  32610   1713  -9603  -6522       C  
+ATOM     92  C1'  DA A 105     -32.239  40.637  23.006  1.00356.52           C  
+ANISOU   92  C1'  DA A 105    54491  47986  32985    823  -9422  -7017       C  
+ATOM     93  N9   DA A 105     -33.430  41.414  23.321  1.00366.29           N  
+ANISOU   93  N9   DA A 105    56269  48763  34139    501  -7729  -7052       N  
+ATOM     94  C8   DA A 105     -34.132  42.223  22.474  1.00370.78           C  
+ANISOU   94  C8   DA A 105    55895  49323  35662    826  -6294  -6817       C  
+ATOM     95  N7   DA A 105     -35.168  42.801  23.032  1.00378.00           N  
+ANISOU   95  N7   DA A 105    57562  49691  36369    413  -4901  -6888       N  
+ATOM     96  C5   DA A 105     -35.144  42.331  24.336  1.00378.49           C  
+ANISOU   96  C5   DA A 105    59218  49425  35166   -252  -5451  -7239       C  
+ATOM     97  C6   DA A 105     -35.980  42.565  25.442  1.00383.13           C  
+ANISOU   97  C6   DA A 105    61230  49413  34929   -956  -4536  -7510       C  
+ATOM     98  N6   DA A 105     -37.043  43.370  25.401  1.00387.35           N  
+ANISOU   98  N6   DA A 105    61768  49481  35925  -1071  -2771  -7478       N  
+ATOM     99  N1   DA A 105     -35.678  41.938  26.600  1.00381.89           N  
+ANISOU   99  N1   DA A 105    62475  49150  33477  -1566  -5492  -7790       N  
+ATOM    100  C2   DA A 105     -34.610  41.132  26.636  1.00376.03           C  
+ANISOU  100  C2   DA A 105    61648  48834  32392  -1444  -7268  -7741       C  
+ATOM    101  N3   DA A 105     -33.752  40.836  25.663  1.00370.06           N  
+ANISOU  101  N3   DA A 105    59594  48585  32426   -780  -8238  -7513       N  
+ATOM    102  C4   DA A 105     -34.080  41.475  24.528  1.00371.72           C  
+ANISOU  102  C4   DA A 105    58486  48925  33824   -211  -7224  -7299       C  
+ATOM    103  P    DG A 106     -30.820  37.137  21.416  1.00387.43           P  
+ANISOU  103  P    DG A 106    56653  53110  37442   2404 -12918  -6198       P  
+ATOM    104  OP1  DG A 106     -29.696  36.183  21.543  1.00377.81           O  
+ANISOU  104  OP1  DG A 106    55284  52032  36235   2534 -14621  -6196       O  
+ATOM    105  OP2  DG A 106     -31.480  37.311  20.104  1.00385.03           O  
+ANISOU  105  OP2  DG A 106    55109  53200  37983   3019 -11875  -5915       O  
+ATOM    106  O5'  DG A 106     -31.956  36.744  22.475  1.00391.19           O  
+ANISOU  106  O5'  DG A 106    58666  53147  36823   1939 -12409  -6077       O  
+ATOM    107  C5'  DG A 106     -31.612  36.502  23.839  1.00393.83           C  
+ANISOU  107  C5'  DG A 106    60405  53129  36103   1239 -13242  -6261       C  
+ATOM    108  C4'  DG A 106     -32.856  36.298  24.690  1.00398.70           C  
+ANISOU  108  C4'  DG A 106    62360  53359  35769    818 -12400  -6147       C  
+ATOM    109  O4'  DG A 106     -33.647  37.520  24.703  1.00408.52           O  
+ANISOU  109  O4'  DG A 106    63748  54326  37143    552 -10738  -6363       O  
+ATOM    110  C3'  DG A 106     -33.805  35.188  24.208  1.00391.73           C  
+ANISOU  110  C3'  DG A 106    61308  52592  34942   1353 -12170  -5647       C  
+ATOM    111  O3'  DG A 106     -34.238  34.394  25.316  1.00392.18           O  
+ANISOU  111  O3'  DG A 106    62762  52345  33905    911 -12572  -5499       O  
+ATOM    112  C2'  DG A 106     -34.963  35.974  23.604  1.00397.46           C  
+ANISOU  112  C2'  DG A 106    61638  53253  36126   1529 -10382  -5562       C  
+ATOM    113  C1'  DG A 106     -34.996  37.168  24.533  1.00408.38           C  
+ANISOU  113  C1'  DG A 106    63950  54185  37032    756  -9656  -6012       C  
+ATOM    114  N9   DG A 106     -35.739  38.302  24.000  1.00415.86           N  
+ANISOU  114  N9   DG A 106    64353  54992  38662    827  -7994  -6039       N  
+ATOM    115  C8   DG A 106     -35.541  38.935  22.796  1.00416.75           C  
+ANISOU  115  C8   DG A 106    62971  55444  39932   1351  -7522  -5925       C  
+ATOM    116  N7   DG A 106     -36.376  39.914  22.583  1.00424.32           N  
+ANISOU  116  N7   DG A 106    63721  56144  41358   1277  -5958  -5875       N  
+ATOM    117  C5   DG A 106     -37.183  39.926  23.716  1.00427.92           C  
+ANISOU  117  C5   DG A 106    65640  56024  40925    671  -5307  -6026       C  
+ATOM    118  C6   DG A 106     -38.269  40.769  24.056  1.00434.17           C  
+ANISOU  118  C6   DG A 106    66891  56267  41808    328  -3609  -6066       C  
+ATOM    119  O6   DG A 106     -38.748  41.706  23.403  1.00437.68           O  
+ANISOU  119  O6   DG A 106    66471  56608  43219    512  -2337  -5911       O  
+ATOM    120  N1   DG A 106     -38.805  40.441  25.300  1.00434.77           N  
+ANISOU  120  N1   DG A 106    68578  55866  40748   -309  -3440  -6282       N  
+ATOM    121  C2   DG A 106     -38.355  39.424  26.108  1.00430.62           C  
+ANISOU  121  C2   DG A 106    69075  55428  39113   -585  -4791  -6368       C  
+ATOM    122  N2   DG A 106     -39.000  39.256  27.271  1.00432.20           N  
+ANISOU  122  N2   DG A 106    70794  55170  38254  -1246  -4375  -6542       N  
+ATOM    123  N3   DG A 106     -37.340  38.629  25.800  1.00424.56           N  
+ANISOU  123  N3   DG A 106    67845  55150  38319   -252  -6417  -6264       N  
+ATOM    124  C4   DG A 106     -36.804  38.938  24.594  1.00423.14           C  
+ANISOU  124  C4   DG A 106    66115  55399  39260    375  -6553  -6128       C  
+ATOM    125  P    DC A 107     -35.223  33.141  25.088  1.00422.52           P  
+ANISOU  125  P    DC A 107    66706  56202  37631   1338 -12453  -4994       P  
+ATOM    126  OP1  DC A 107     -35.207  32.322  26.322  1.00422.62           O  
+ANISOU  126  OP1  DC A 107    68090  55944  36541    822 -13331  -4852       O  
+ATOM    127  OP2  DC A 107     -34.875  32.527  23.787  1.00412.56           O  
+ANISOU  127  OP2  DC A 107    63943  55402  37411   2167 -12891  -4791       O  
+ATOM    128  O5'  DC A 107     -36.674  33.802  24.938  1.00428.54           O  
+ANISOU  128  O5'  DC A 107    67690  56734  38401   1295 -10565  -4932       O  
+ATOM    129  C5'  DC A 107     -37.242  34.528  26.026  1.00438.10           C  
+ANISOU  129  C5'  DC A 107    70220  57459  38779    532  -9689  -5184       C  
+ATOM    130  C4'  DC A 107     -38.652  34.994  25.696  1.00440.48           C  
+ANISOU  130  C4'  DC A 107    70473  57530  39360    648  -7908  -5015       C  
+ATOM    131  O4'  DC A 107     -38.602  36.078  24.730  1.00445.03           O  
+ANISOU  131  O4'  DC A 107    69832  58265  40995    951  -7010  -5106       O  
+ATOM    132  C3'  DC A 107     -39.565  33.923  25.090  1.00432.03           C  
+ANISOU  132  C3'  DC A 107    69036  56609  38508   1232  -7726  -4470       C  
+ATOM    133  O3'  DC A 107     -40.853  34.000  25.677  1.00434.28           O  
+ANISOU  133  O3'  DC A 107    70271  56438  38296    920  -6499  -4338       O  
+ATOM    134  C2'  DC A 107     -39.610  34.304  23.613  1.00430.07           C  
+ANISOU  134  C2'  DC A 107    67106  56811  39492   1921  -7201  -4296       C  
+ATOM    135  C1'  DC A 107     -39.524  35.817  23.698  1.00440.65           C  
+ANISOU  135  C1'  DC A 107    68348  57928  41152   1568  -6192  -4633       C  
+ATOM    136  N1   DC A 107     -39.031  36.451  22.452  1.00441.06           N  
+ANISOU  136  N1   DC A 107    66805  58445  42332   2064  -6041  -4589       N  
+ATOM    137  C2   DC A 107     -39.688  37.573  21.935  1.00447.44           C  
+ANISOU  137  C2   DC A 107    66988  59149  43870   2103  -4552  -4478       C  
+ATOM    138  O2   DC A 107     -40.674  38.024  22.532  1.00451.89           O  
+ANISOU  138  O2   DC A 107    68333  59181  44186   1733  -3343  -4456       O  
+ATOM    139  N3   DC A 107     -39.221  38.137  20.793  1.00447.62           N  
+ANISOU  139  N3   DC A 107    65534  59646  44896   2533  -4456  -4369       N  
+ATOM    140  C4   DC A 107     -38.154  37.618  20.181  1.00441.35           C  
+ANISOU  140  C4   DC A 107    63937  59397  44359   2906  -5726  -4435       C  
+ATOM    141  N4   DC A 107     -37.729  38.206  19.058  1.00440.69           N  
+ANISOU  141  N4   DC A 107    62415  59798  45230   3292  -5550  -4324       N  
+ATOM    142  C5   DC A 107     -37.475  36.474  20.693  1.00434.18           C  
+ANISOU  142  C5   DC A 107    63630  58545  42791   2888  -7209  -4585       C  
+ATOM    143  C6   DC A 107     -37.945  35.928  21.817  1.00434.51           C  
+ANISOU  143  C6   DC A 107    65099  58128  41866   2468  -7333  -4622       C  
+ATOM    144  P    DC A 108     -41.226  33.095  26.951  1.00385.77           P  
+ANISOU  144  P    DC A 108    65735  49945  30896    415  -6962  -4248       P  
+ATOM    145  OP1  DC A 108     -39.972  32.776  27.670  1.00386.53           O  
+ANISOU  145  OP1  DC A 108    66363  50150  30352     37  -8550  -4471       O  
+ATOM    146  OP2  DC A 108     -42.104  32.000  26.480  1.00376.50           O  
+ANISOU  146  OP2  DC A 108    64307  48849  29897    939  -6854  -3719       O  
+ATOM    147  O5'  DC A 108     -42.100  34.081  27.856  1.00394.61           O  
+ANISOU  147  O5'  DC A 108    68002  50472  31460   -312  -5429  -4537       O  
+ATOM    148  C5'  DC A 108     -43.145  33.576  28.670  1.00392.81           C  
+ANISOU  148  C5'  DC A 108    68981  49843  30427   -652  -4832  -4353       C  
+ATOM    149  C4'  DC A 108     -44.121  34.684  29.025  1.00398.65           C  
+ANISOU  149  C4'  DC A 108    70217  50038  31212  -1091  -2960  -4597       C  
+ATOM    150  O4'  DC A 108     -43.529  35.971  28.693  1.00404.62           O  
+ANISOU  150  O4'  DC A 108    70321  50797  32621  -1206  -2504  -5035       O  
+ATOM    151  C3'  DC A 108     -45.432  34.653  28.256  1.00394.22           C  
+ANISOU  151  C3'  DC A 108    68992  49336  31457   -570  -1605  -4123       C  
+ATOM    152  O3'  DC A 108     -46.374  33.816  28.915  1.00389.30           O  
+ANISOU  152  O3'  DC A 108    69401  48411  30104   -740  -1333  -3840       O  
+ATOM    153  C2'  DC A 108     -45.849  36.117  28.300  1.00400.22           C  
+ANISOU  153  C2'  DC A 108    69665  49652  32747   -910     28  -4459       C  
+ATOM    154  C1'  DC A 108     -44.507  36.814  28.101  1.00406.20           C  
+ANISOU  154  C1'  DC A 108    69871  50705  33760   -996   -773  -4907       C  
+ATOM    155  N1   DC A 108     -44.152  37.029  26.655  1.00404.73           N  
+ANISOU  155  N1   DC A 108    67889  51033  34857   -199   -931  -4604       N  
+ATOM    156  C2   DC A 108     -44.839  37.993  25.903  1.00406.58           C  
+ANISOU  156  C2   DC A 108    67165  51111  36204     43    556  -4413       C  
+ATOM    157  O2   DC A 108     -45.729  38.661  26.442  1.00407.89           O  
+ANISOU  157  O2   DC A 108    67955  50649  36378   -375   2018  -4519       O  
+ATOM    158  N3   DC A 108     -44.505  38.168  24.598  1.00405.47           N  
+ANISOU  158  N3   DC A 108    65411  51517  37134    709    365  -4091       N  
+ATOM    159  C4   DC A 108     -43.539  37.428  24.051  1.00402.24           C  
+ANISOU  159  C4   DC A 108    64368  51746  36720   1123  -1155  -4040       C  
+ATOM    160  N4   DC A 108     -43.244  37.635  22.763  1.00400.95           N  
+ANISOU  160  N4   DC A 108    62632  52140  37571   1723  -1240  -3755       N  
+ATOM    161  C5   DC A 108     -42.831  36.445  24.799  1.00399.25           C  
+ANISOU  161  C5   DC A 108    64910  51456  35329    917  -2638  -4252       C  
+ATOM    162  C6   DC A 108     -43.166  36.282  26.082  1.00400.90           C  
+ANISOU  162  C6   DC A 108    66688  51162  34474    259  -2501  -4488       C  
+ATOM    163  P    DT A 109     -47.334  32.854  28.056  1.00372.48           P  
+ANISOU  163  P    DT A 109    66531  46442  28554      5  -1111  -3149       P  
+ATOM    164  OP1  DT A 109     -48.186  32.112  29.010  1.00368.39           O  
+ANISOU  164  OP1  DT A 109    67343  45513  27114   -349   -848  -2968       O  
+ATOM    165  OP2  DT A 109     -46.488  32.108  27.098  1.00368.50           O  
+ANISOU  165  OP2  DT A 109    64857  46596  28559    673  -2513  -2943       O  
+ATOM    166  O5'  DT A 109     -48.247  33.867  27.216  1.00373.14           O  
+ANISOU  166  O5'  DT A 109    65628  46354  29793    280    616  -2971       O  
+ATOM    167  C5'  DT A 109     -49.102  34.784  27.889  1.00375.75           C  
+ANISOU  167  C5'  DT A 109    66719  45996  30051   -264   2244  -3169       C  
+ATOM    168  C4'  DT A 109     -49.421  35.976  27.003  1.00378.19           C  
+ANISOU  168  C4'  DT A 109    65796  46239  31662    -12   3514  -3073       C  
+ATOM    169  O4'  DT A 109     -48.302  36.242  26.141  1.00382.03           O  
+ANISOU  169  O4'  DT A 109    65092  47334  32730    369   2568  -3156       O  
+ATOM    170  C3'  DT A 109     -50.606  35.780  26.066  1.00369.63           C  
+ANISOU  170  C3'  DT A 109    63734  45192  31515    560   4468  -2350       C  
+ATOM    171  O3'  DT A 109     -51.779  36.338  26.647  1.00368.08           O  
+ANISOU  171  O3'  DT A 109    64200  44226  31429    176   6159  -2305       O  
+ATOM    172  C2'  DT A 109     -50.209  36.528  24.779  1.00371.45           C  
+ANISOU  172  C2'  DT A 109    62242  45901  32990   1056   4588  -2137       C  
+ATOM    173  C1'  DT A 109     -48.759  36.960  25.025  1.00380.68           C  
+ANISOU  173  C1'  DT A 109    63494  47294  33852    819   3548  -2762       C  
+ATOM    174  N1   DT A 109     -47.855  36.673  23.879  1.00380.53           N  
+ANISOU  174  N1   DT A 109    62098  48104  34382   1426   2382  -2592       N  
+ATOM    175  C2   DT A 109     -47.948  37.440  22.744  1.00380.33           C  
+ANISOU  175  C2   DT A 109    60579  48382  35548   1820   3026  -2257       C  
+ATOM    176  O2   DT A 109     -48.740  38.355  22.622  1.00379.02           O  
+ANISOU  176  O2   DT A 109    60106  47808  36097   1721   4495  -2039       O  
+ATOM    177  N3   DT A 109     -47.077  37.096  21.748  1.00380.16           N  
+ANISOU  177  N3   DT A 109    59393  49154  35895   2319   1903  -2158       N  
+ATOM    178  C4   DT A 109     -46.139  36.083  21.773  1.00378.98           C  
+ANISOU  178  C4   DT A 109    59392  49449  35155   2483    272  -2376       C  
+ATOM    179  O4   DT A 109     -45.399  35.851  20.824  1.00377.48           O  
+ANISOU  179  O4   DT A 109    58071  49933  35419   2924   -566  -2308       O  
+ATOM    180  C5   DT A 109     -46.093  35.316  22.996  1.00377.94           C  
+ANISOU  180  C5   DT A 109    60809  48923  33870   2076   -352  -2662       C  
+ATOM    181  C7   DT A 109     -45.116  34.189  23.143  1.00374.05           C  
+ANISOU  181  C7   DT A 109    60535  48797  32788   2212  -2106  -2824       C  
+ATOM    182  C6   DT A 109     -46.943  35.645  23.977  1.00379.27           C  
+ANISOU  182  C6   DT A 109    62159  48382  33564   1560    705  -2747       C  
+ATOM    183  P    DG A 110     -52.820  35.394  27.426  1.00309.48           P  
+ANISOU  183  P    DG A 110    57982  36392  23215    -17   6494  -2079       P  
+ATOM    184  OP1  DG A 110     -54.133  36.078  27.423  1.00304.46           O  
+ANISOU  184  OP1  DG A 110    57253  35095  23333   -112   8412  -1795       O  
+ATOM    185  OP2  DG A 110     -52.199  35.037  28.721  1.00315.23           O  
+ANISOU  185  OP2  DG A 110    60306  36949  22519   -682   5694  -2655       O  
+ATOM    186  O5'  DG A 110     -52.884  34.067  26.526  1.00300.66           O  
+ANISOU  186  O5'  DG A 110    56051  35954  22231    719   5351  -1477       O  
+ATOM    187  C5'  DG A 110     -54.115  33.651  25.930  1.00291.13           C  
+ANISOU  187  C5'  DG A 110    54283  34692  21639   1121   6156   -803       C  
+ATOM    188  C4'  DG A 110     -54.425  34.475  24.691  1.00288.22           C  
+ANISOU  188  C4'  DG A 110    52272  34583  22656   1551   6970   -373       C  
+ATOM    189  O4'  DG A 110     -53.184  34.898  24.072  1.00294.47           O  
+ANISOU  189  O4'  DG A 110    52184  35964  23738   1737   6050   -640       O  
+ATOM    190  C3'  DG A 110     -55.217  33.744  23.605  1.00277.76           C  
+ANISOU  190  C3'  DG A 110    49839  33715  21982   2161   6986    389       C  
+ATOM    191  O3'  DG A 110     -56.189  34.620  23.032  1.00272.69           O  
+ANISOU  191  O3'  DG A 110    48313  32830  22467   2254   8502    915       O  
+ATOM    192  C2'  DG A 110     -54.140  33.371  22.590  1.00279.28           C  
+ANISOU  192  C2'  DG A 110    48886  34850  22378   2629   5572    364       C  
+ATOM    193  C1'  DG A 110     -53.202  34.561  22.706  1.00288.93           C  
+ANISOU  193  C1'  DG A 110    49943  36017  23820   2380   5644   -110       C  
+ATOM    194  N9   DG A 110     -51.835  34.280  22.294  1.00294.28           N  
+ANISOU  194  N9   DG A 110    50135  37369  24310   2590   4131   -448       N  
+ATOM    195  C8   DG A 110     -50.878  33.600  23.007  1.00298.73           C  
+ANISOU  195  C8   DG A 110    51604  37988  23910   2410   2785   -946       C  
+ATOM    196  N7   DG A 110     -49.735  33.513  22.388  1.00302.15           N  
+ANISOU  196  N7   DG A 110    51239  39040  24524   2681   1643  -1139       N  
+ATOM    197  C5   DG A 110     -49.948  34.183  21.190  1.00300.89           C  
+ANISOU  197  C5   DG A 110    49584  39298  25442   3044   2280   -767       C  
+ATOM    198  C6   DG A 110     -49.069  34.418  20.108  1.00302.85           C  
+ANISOU  198  C6   DG A 110    48471  40288  26311   3417   1629   -766       C  
+ATOM    199  O6   DG A 110     -47.888  34.068  19.991  1.00305.74           O  
+ANISOU  199  O6   DG A 110    48666  41050  26450   3528    344  -1137       O  
+ATOM    200  N1   DG A 110     -49.687  35.138  19.090  1.00299.45           N  
+ANISOU  200  N1   DG A 110    46758  40132  26888   3657   2640   -230       N  
+ATOM    201  C2   DG A 110     -50.989  35.576  19.116  1.00293.52           C  
+ANISOU  201  C2   DG A 110    45998  38949  26577   3566   4083    274       C  
+ATOM    202  N2   DG A 110     -51.410  36.256  18.041  1.00288.31           N  
+ANISOU  202  N2   DG A 110    43930  38671  26945   3810   4844    859       N  
+ATOM    203  N3   DG A 110     -51.822  35.362  20.123  1.00291.19           N  
+ANISOU  203  N3   DG A 110    46959  37904  25778   3241   4742    247       N  
+ATOM    204  C4   DG A 110     -51.235  34.663  21.121  1.00295.72           C  
+ANISOU  204  C4   DG A 110    48831  38244  25284   2987   3783   -303       C  
+ATOM    205  P    DT A 111     -57.725  34.562  23.509  1.00287.15           P  
+ANISOU  205  P    DT A 111    50716  33898  24489   2083   9973   1347       P  
+ATOM    206  OP1  DT A 111     -58.181  35.960  23.660  1.00289.83           O  
+ANISOU  206  OP1  DT A 111    50841  33576  25705   1794  11591   1377       O  
+ATOM    207  OP2  DT A 111     -57.824  33.629  24.653  1.00288.19           O  
+ANISOU  207  OP2  DT A 111    52460  33655  23383   1766   9523   1006       O  
+ATOM    208  O5'  DT A 111     -58.500  33.903  22.272  1.00276.73           O  
+ANISOU  208  O5'  DT A 111    48068  33177  23900   2670   9917   2207       O  
+ATOM    209  C5'  DT A 111     -57.780  33.206  21.265  1.00274.01           C  
+ANISOU  209  C5'  DT A 111    46725  33834  23553   3133   8534   2302       C  
+ATOM    210  C4'  DT A 111     -57.778  33.991  19.966  1.00270.43           C  
+ANISOU  210  C4'  DT A 111    44524  33970  24256   3441   8894   2814       C  
+ATOM    211  O4'  DT A 111     -56.408  34.273  19.572  1.00277.00           O  
+ANISOU  211  O4'  DT A 111    44847  35394  25004   3540   7850   2365       O  
+ATOM    212  C3'  DT A 111     -58.412  33.268  18.780  1.00261.61           C  
+ANISOU  212  C3'  DT A 111    42191  33600  23610   3875   8671   3531       C  
+ATOM    213  O3'  DT A 111     -59.076  34.199  17.936  1.00256.86           O  
+ANISOU  213  O3'  DT A 111    40289  33126  24180   3966   9749   4268       O  
+ATOM    214  C2'  DT A 111     -57.206  32.653  18.086  1.00264.07           C  
+ANISOU  214  C2'  DT A 111    41898  34860  23576   4164   7093   3182       C  
+ATOM    215  C1'  DT A 111     -56.170  33.745  18.285  1.00273.29           C  
+ANISOU  215  C1'  DT A 111    43021  35940  24877   3992   7049   2719       C  
+ATOM    216  N1   DT A 111     -54.774  33.251  18.228  1.00281.84           N  
+ANISOU  216  N1   DT A 111    44175  37547  25365   4103   5517   2087       N  
+ATOM    217  C2   DT A 111     -53.974  33.631  17.180  1.00283.74           C  
+ANISOU  217  C2   DT A 111    43106  38588  26112   4352   5000   2117       C  
+ATOM    218  O2   DT A 111     -54.353  34.365  16.286  1.00278.44           O  
+ANISOU  218  O2   DT A 111    41210  38265  26318   4472   5713   2675       O  
+ATOM    219  N3   DT A 111     -52.705  33.122  17.216  1.00290.62           N  
+ANISOU  219  N3   DT A 111    44122  39842  26459   4443   3613   1514       N  
+ATOM    220  C4   DT A 111     -52.169  32.285  18.177  1.00294.50           C  
+ANISOU  220  C4   DT A 111    45875  40005  26018   4308   2670    961       C  
+ATOM    221  O4   DT A 111     -51.014  31.878  18.124  1.00298.44           O  
+ANISOU  221  O4   DT A 111    46332  40857  26206   4409   1435    503       O  
+ATOM    222  C5   DT A 111     -53.064  31.923  19.249  1.00292.14           C  
+ANISOU  222  C5   DT A 111    46915  38914  25172   4027   3244   1008       C  
+ATOM    223  C7   DT A 111     -52.594  31.019  20.348  1.00294.76           C  
+ANISOU  223  C7   DT A 111    48654  38880  24463   3823   2285    536       C  
+ATOM    224  C6   DT A 111     -54.309  32.417  19.222  1.00286.40           C  
+ANISOU  224  C6   DT A 111    46092  37798  24930   3941   4645   1531       C  
+ATOM    225  P    DA A 112     -60.065  33.672  16.784  1.00271.10           P  
+ANISOU  225  P    DA A 112    40835  35580  26589   4274   9922   5186       P  
+ATOM    226  OP1  DA A 112     -61.006  34.765  16.458  1.00267.58           O  
+ANISOU  226  OP1  DA A 112    39564  34784  27319   4196  11412   5981       O  
+ATOM    227  OP2  DA A 112     -60.594  32.361  17.214  1.00268.92           O  
+ANISOU  227  OP2  DA A 112    41428  35164  25587   4316   9497   5106       O  
+ATOM    228  O5'  DA A 112     -59.107  33.428  15.524  1.00271.53           O  
+ANISOU  228  O5'  DA A 112    39565  36900  26704   4585   8711   5169       O  
+ATOM    229  C5'  DA A 112     -58.777  34.511  14.658  1.00271.15           C  
+ANISOU  229  C5'  DA A 112    38184  37329  27512   4641   9036   5544       C  
+ATOM    230  C4'  DA A 112     -58.621  34.032  13.222  1.00265.57           C  
+ANISOU  230  C4'  DA A 112    35991  37911  27003   4916   8286   5959       C  
+ATOM    231  O4'  DA A 112     -57.333  33.400  13.059  1.00271.33           O  
+ANISOU  231  O4'  DA A 112    36822  39235  27037   5057   6870   5188       O  
+ATOM    232  C3'  DA A 112     -59.667  33.021  12.762  1.00257.81           C  
+ANISOU  232  C3'  DA A 112    34734  37272  25951   5010   8286   6480       C  
+ATOM    233  O3'  DA A 112     -60.226  33.347  11.451  1.00249.16           O  
+ANISOU  233  O3'  DA A 112    31977  37061  25631   5076   8621   7413       O  
+ATOM    234  C2'  DA A 112     -58.960  31.663  12.788  1.00261.15           C  
+ANISOU  234  C2'  DA A 112    35667  38135  25422   5162   6884   5752       C  
+ATOM    235  C1'  DA A 112     -57.470  32.002  12.901  1.00269.62           C  
+ANISOU  235  C1'  DA A 112    36846  39397  26202   5198   6033   5001       C  
+ATOM    236  N9   DA A 112     -56.807  31.337  14.020  1.00278.02           N  
+ANISOU  236  N9   DA A 112    39381  39866  26388   5147   5280   4161       N  
+ATOM    237  C8   DA A 112     -57.396  30.841  15.149  1.00277.08           C  
+ANISOU  237  C8   DA A 112    40654  38859  25764   4995   5561   4014       C  
+ATOM    238  N7   DA A 112     -56.551  30.291  15.988  1.00284.17           N  
+ANISOU  238  N7   DA A 112    42648  39447  25877   4941   4657   3287       N  
+ATOM    239  C5   DA A 112     -55.323  30.436  15.366  1.00290.00           C  
+ANISOU  239  C5   DA A 112    42649  40874  26664   5090   3734   2911       C  
+ATOM    240  C6   DA A 112     -54.020  30.059  15.742  1.00296.92           C  
+ANISOU  240  C6   DA A 112    44002  41817  26997   5117   2522   2182       C  
+ATOM    241  N6   DA A 112     -53.736  29.432  16.888  1.00299.19           N  
+ANISOU  241  N6   DA A 112    45683  41482  26514   4966   1975   1732       N  
+ATOM    242  N1   DA A 112     -53.015  30.351  14.890  1.00300.24           N  
+ANISOU  242  N1   DA A 112    43379  42983  27716   5287   1882   1983       N  
+ATOM    243  C2   DA A 112     -53.305  30.977  13.744  1.00297.51           C  
+ANISOU  243  C2   DA A 112    41632  43315  28093   5397   2415   2493       C  
+ATOM    244  N3   DA A 112     -54.487  31.382  13.284  1.00290.57           N  
+ANISOU  244  N3   DA A 112    40160  42491  27753   5363   3501   3250       N  
+ATOM    245  C4   DA A 112     -55.463  31.078  14.151  1.00286.86           C  
+ANISOU  245  C4   DA A 112    40734  41223  27035   5218   4124   3416       C  
+ATOM    246  P    DC A 113     -59.337  33.830  10.192  1.00232.47           P  
+ANISOU  246  P    DC A 113    28346  36145  23836   5176   8035   7556       P  
+ATOM    247  OP1  DC A 113     -58.721  35.149  10.464  1.00236.93           O  
+ANISOU  247  OP1  DC A 113    28798  36296  24929   5105   8525   7487       O  
+ATOM    248  OP2  DC A 113     -60.254  33.716   9.038  1.00223.59           O  
+ANISOU  248  OP2  DC A 113    25858  35878  23218   5163   8332   8552       O  
+ATOM    249  O5'  DC A 113     -58.213  32.703  10.001  1.00238.10           O  
+ANISOU  249  O5'  DC A 113    29331  37521  23616   5335   6513   6620       O  
+ATOM    250  C5'  DC A 113     -57.055  32.982   9.217  1.00243.08           C  
+ANISOU  250  C5'  DC A 113    29072  39022  24266   5426   5767   6332       C  
+ATOM    251  C4'  DC A 113     -56.449  31.710   8.641  1.00244.96           C  
+ANISOU  251  C4'  DC A 113    29117  40108  23848   5566   4527   5756       C  
+ATOM    252  O4'  DC A 113     -55.882  30.899   9.702  1.00254.67           O  
+ANISOU  252  O4'  DC A 113    31775  40634  24353   5635   3815   4861       O  
+ATOM    253  C3'  DC A 113     -57.426  30.806   7.886  1.00236.03           C  
+ANISOU  253  C3'  DC A 113    27391  39630  22661   5541   4537   6230       C  
+ATOM    254  O3'  DC A 113     -56.837  30.370   6.664  1.00236.04           O  
+ANISOU  254  O3'  DC A 113    26233  40916  22537   5573   3769   6079       O  
+ATOM    255  C2'  DC A 113     -57.650  29.644   8.852  1.00238.09           C  
+ANISOU  255  C2'  DC A 113    29042  39146  22278   5601   4162   5665       C  
+ATOM    256  C1'  DC A 113     -56.300  29.563   9.542  1.00250.35           C  
+ANISOU  256  C1'  DC A 113    31414  40331  23378   5704   3317   4716       C  
+ATOM    257  N1   DC A 113     -56.361  28.944  10.878  1.00254.04           N  
+ANISOU  257  N1   DC A 113    33496  39738  23290   5697   3144   4236       N  
+ATOM    258  C2   DC A 113     -55.177  28.561  11.514  1.00262.16           C  
+ANISOU  258  C2   DC A 113    35310  40490  23809   5770   2173   3395       C  
+ATOM    259  O2   DC A 113     -54.098  28.737  10.938  1.00266.00           O  
+ANISOU  259  O2   DC A 113    35118  41586  24366   5867   1496   3029       O  
+ATOM    260  N3   DC A 113     -55.249  28.005  12.746  1.00264.37           N  
+ANISOU  260  N3   DC A 113    37053  39853  23542   5712   1992   3047       N  
+ATOM    261  C4   DC A 113     -56.434  27.834  13.331  1.00259.68           C  
+ANISOU  261  C4   DC A 113    37151  38621  22895   5597   2782   3455       C  
+ATOM    262  N4   DC A 113     -56.455  27.284  14.547  1.00261.81           N  
+ANISOU  262  N4   DC A 113    38870  38040  22567   5507   2575   3116       N  
+ATOM    263  C5   DC A 113     -57.651  28.222  12.697  1.00251.36           C  
+ANISOU  263  C5   DC A 113    35308  37784  22414   5549   3814   4277       C  
+ATOM    264  C6   DC A 113     -57.567  28.767  11.483  1.00248.37           C  
+ANISOU  264  C6   DC A 113    33462  38331  22578   5596   3934   4665       C  
+ATOM    265  P    DG A 114     -57.677  30.438   5.295  1.00233.88           P  
+ANISOU  265  P    DG A 114    24411  41825  22629   5399   4126   7008       P  
+ATOM    266  OP1  DG A 114     -58.661  31.536   5.412  1.00226.77           O  
+ANISOU  266  OP1  DG A 114    23188  40494  22481   5276   5312   8068       O  
+ATOM    267  OP2  DG A 114     -58.136  29.068   4.977  1.00232.92           O  
+ANISOU  267  OP2  DG A 114    24353  42119  22027   5370   3645   6764       O  
+ATOM    268  O5'  DG A 114     -56.597  30.855   4.192  1.00234.35           O  
+ANISOU  268  O5'  DG A 114    23223  43066  22754   5383   3570   6859       O  
+ATOM    269  C5'  DG A 114     -56.285  29.957   3.130  1.00231.58           C  
+ANISOU  269  C5'  DG A 114    22056  43928  22005   5309   2826   6534       C  
+ATOM    270  C4'  DG A 114     -54.899  29.365   3.309  1.00243.42           C  
+ANISOU  270  C4'  DG A 114    23989  45436  23062   5499   1807   5355       C  
+ATOM    271  O4'  DG A 114     -54.674  29.080   4.716  1.00254.04           O  
+ANISOU  271  O4'  DG A 114    26897  45444  24182   5693   1649   4775       O  
+ATOM    272  C3'  DG A 114     -54.659  28.049   2.567  1.00244.88           C  
+ANISOU  272  C3'  DG A 114    23793  46474  22777   5452   1033   4728       C  
+ATOM    273  O3'  DG A 114     -53.320  28.014   2.034  1.00249.88           O  
+ANISOU  273  O3'  DG A 114    23908  47727  23308   5523    299   4012       O  
+ATOM    274  C2'  DG A 114     -54.881  27.009   3.659  1.00251.50           C  
+ANISOU  274  C2'  DG A 114    26033  46253  23273   5618    749   4161       C  
+ATOM    275  C1'  DG A 114     -54.323  27.724   4.875  1.00258.47           C  
+ANISOU  275  C1'  DG A 114    27993  45972  24240   5798    820   3956       C  
+ATOM    276  N9   DG A 114     -54.891  27.244   6.125  1.00259.36           N  
+ANISOU  276  N9   DG A 114    29528  44890  24129   5871    980   3853       N  
+ATOM    277  C8   DG A 114     -56.202  27.325   6.515  1.00252.84           C  
+ANISOU  277  C8   DG A 114    29079  43559  23428   5769   1815   4541       C  
+ATOM    278  N7   DG A 114     -56.428  26.804   7.685  1.00255.42           N  
+ANISOU  278  N7   DG A 114    30766  42827  23453   5844   1780   4249       N  
+ATOM    279  C5   DG A 114     -55.186  26.345   8.098  1.00263.07           C  
+ANISOU  279  C5   DG A 114    32276  43600  24080   5998    817   3358       C  
+ATOM    280  C6   DG A 114     -54.812  25.694   9.292  1.00267.00           C  
+ANISOU  280  C6   DG A 114    34156  43143  24148   6096    307   2788       C  
+ATOM    281  O6   DG A 114     -55.531  25.377  10.247  1.00265.70           O  
+ANISOU  281  O6   DG A 114    35080  42113  23762   6055    642   2926       O  
+ATOM    282  N1   DG A 114     -53.454  25.392   9.312  1.00271.56           N  
+ANISOU  282  N1   DG A 114    34760  43854  24567   6232   -699   2030       N  
+ATOM    283  C2   DG A 114     -52.567  25.693   8.308  1.00272.50           C  
+ANISOU  283  C2   DG A 114    33734  44884  24918   6280  -1103   1797       C  
+ATOM    284  N2   DG A 114     -51.293  25.328   8.511  1.00274.80           N  
+ANISOU  284  N2   DG A 114    34218  45104  25090   6422  -2063   1058       N  
+ATOM    285  N3   DG A 114     -52.905  26.311   7.183  1.00270.07           N  
+ANISOU  285  N3   DG A 114    32157  45504  24952   6175   -604   2297       N  
+ATOM    286  C4   DG A 114     -54.228  26.605   7.147  1.00265.28           C  
+ANISOU  286  C4   DG A 114    31488  44804  24501   6032    325   3090       C  
+ATOM    287  P    DG A 115     -52.498  26.634   1.911  1.00247.35           P  
+ANISOU  287  P    DG A 115    23816  47591  22575   5632   -691   2861       P  
+ATOM    288  OP1  DG A 115     -51.359  26.889   1.003  1.00240.08           O  
+ANISOU  288  OP1  DG A 115    21899  47612  21710   5602  -1148   2446       O  
+ATOM    289  OP2  DG A 115     -53.429  25.538   1.558  1.00246.03           O  
+ANISOU  289  OP2  DG A 115    23572  47747  22160   5475   -656   2881       O  
+ATOM    290  O5'  DG A 115     -51.925  26.401   3.391  1.00253.98           O  
+ANISOU  290  O5'  DG A 115    26188  46998  23315   5934  -1093   2255       O  
+ATOM    291  C5'  DG A 115     -50.797  25.570   3.606  1.00254.44           C  
+ANISOU  291  C5'  DG A 115    26589  46871  23215   6122  -2034   1259       C  
+ATOM    292  C4'  DG A 115     -51.205  24.235   4.205  1.00255.52           C  
+ANISOU  292  C4'  DG A 115    27603  46390  23092   6206  -2371    858       C  
+ATOM    293  O4'  DG A 115     -52.383  24.395   5.024  1.00255.55           O  
+ANISOU  293  O4'  DG A 115    28467  45613  23019   6163  -1705   1490       O  
+ATOM    294  C3'  DG A 115     -51.549  23.142   3.182  1.00254.00           C  
+ANISOU  294  C3'  DG A 115    26612  47086  22810   6060  -2540    581       C  
+ATOM    295  O3'  DG A 115     -50.598  22.042   3.214  1.00254.59           O  
+ANISOU  295  O3'  DG A 115    26821  47031  22881   6221  -3410   -406       O  
+ATOM    296  C2'  DG A 115     -52.958  22.673   3.585  1.00253.80           C  
+ANISOU  296  C2'  DG A 115    27147  46631  22652   5970  -2011   1100       C  
+ATOM    297  C1'  DG A 115     -53.073  23.178   5.014  1.00254.71           C  
+ANISOU  297  C1'  DG A 115    28605  45438  22736   6140  -1815   1341       C  
+ATOM    298  N9   DG A 115     -54.446  23.402   5.454  1.00251.15           N  
+ANISOU  298  N9   DG A 115    28615  44531  22278   6031   -983   2129       N  
+ATOM    299  C8   DG A 115     -55.498  23.851   4.693  1.00245.01           C  
+ANISOU  299  C8   DG A 115    27004  44418  21672   5799   -228   2941       C  
+ATOM    300  N7   DG A 115     -56.615  23.955   5.356  1.00240.54           N  
+ANISOU  300  N7   DG A 115    27101  43145  21148   5760    445   3541       N  
+ATOM    301  C5   DG A 115     -56.286  23.545   6.639  1.00245.30           C  
+ANISOU  301  C5   DG A 115    29101  42582  21518   5954    125   3072       C  
+ATOM    302  C6   DG A 115     -57.092  23.446   7.796  1.00243.61           C  
+ANISOU  302  C6   DG A 115    30112  41254  21194   5975    591   3355       C  
+ATOM    303  O6   DG A 115     -58.297  23.710   7.919  1.00237.20           O  
+ANISOU  303  O6   DG A 115    29376  40200  20548   5854   1438   4080       O  
+ATOM    304  N1   DG A 115     -56.364  22.987   8.888  1.00249.08           N  
+ANISOU  304  N1   DG A 115    32007  41068  21563   6133    -22   2732       N  
+ATOM    305  C2   DG A 115     -55.029  22.661   8.866  1.00254.25           C  
+ANISOU  305  C2   DG A 115    32640  41859  22104   6277   -985   1971       C  
+ATOM    306  N2   DG A 115     -54.503  22.239  10.024  1.00257.34           N  
+ANISOU  306  N2   DG A 115    34254  41332  22193   6382  -1515   1552       N  
+ATOM    307  N3   DG A 115     -54.259  22.755   7.789  1.00255.32           N  
+ANISOU  307  N3   DG A 115    31618  42970  22420   6291  -1391   1673       N  
+ATOM    308  C4   DG A 115     -54.955  23.199   6.716  1.00251.31           C  
+ANISOU  308  C4   DG A 115    29974  43369  22144   6116   -786   2237       C  
+ATOM    309  P    DA A 116     -49.184  22.119   3.986  1.00280.76           P  
+ANISOU  309  P    DA A 116    30737  49619  26321   6505  -4189  -1040       P  
+ATOM    310  OP1  DA A 116     -48.447  23.351   3.622  1.00277.71           O  
+ANISOU  310  OP1  DA A 116    29746  49672  26098   6490  -4099   -888       O  
+ATOM    311  OP2  DA A 116     -48.515  20.828   3.719  1.00281.02           O  
+ANISOU  311  OP2  DA A 116    30585  49711  26479   6606  -4924  -1916       O  
+ATOM    312  O5'  DA A 116     -49.585  22.112   5.538  1.00284.22           O  
+ANISOU  312  O5'  DA A 116    32733  48686  26572   6640  -4157   -789       O  
+ATOM    313  C5'  DA A 116     -48.583  21.995   6.539  1.00285.29           C  
+ANISOU  313  C5'  DA A 116    33743  47956  26699   6839  -4878  -1236       C  
+ATOM    314  C4'  DA A 116     -48.810  20.756   7.388  1.00287.73           C  
+ANISOU  314  C4'  DA A 116    35029  47422  26873   6951  -5323  -1489       C  
+ATOM    315  O4'  DA A 116     -50.191  20.726   7.849  1.00288.69           O  
+ANISOU  315  O4'  DA A 116    35790  47160  26740   6835  -4597   -873       O  
+ATOM    316  C3'  DA A 116     -48.578  19.428   6.662  1.00288.96           C  
+ANISOU  316  C3'  DA A 116    34543  47977  27273   7014  -5809  -2102       C  
+ATOM    317  O3'  DA A 116     -47.913  18.503   7.521  1.00291.37           O  
+ANISOU  317  O3'  DA A 116    35610  47418  27681   7214  -6640  -2550       O  
+ATOM    318  C2'  DA A 116     -49.993  18.968   6.331  1.00290.80           C  
+ANISOU  318  C2'  DA A 116    34691  48440  27359   6853  -5136  -1699       C  
+ATOM    319  C1'  DA A 116     -50.758  19.472   7.542  1.00290.56           C  
+ANISOU  319  C1'  DA A 116    35901  47482  27016   6843  -4698  -1060       C  
+ATOM    320  N9   DA A 116     -52.185  19.646   7.286  1.00289.54           N  
+ANISOU  320  N9   DA A 116    35672  47571  26769   6659  -3798   -393       N  
+ATOM    321  C8   DA A 116     -52.762  20.096   6.137  1.00286.99           C  
+ANISOU  321  C8   DA A 116    34226  48276  26540   6456  -3212    -36       C  
+ATOM    322  N7   DA A 116     -54.072  20.146   6.185  1.00285.24           N  
+ANISOU  322  N7   DA A 116    34151  47987  26241   6312  -2480    618       N  
+ATOM    323  C5   DA A 116     -54.374  19.686   7.453  1.00287.07           C  
+ANISOU  323  C5   DA A 116    35719  47056  26298   6438  -2555    644       C  
+ATOM    324  C6   DA A 116     -55.596  19.494   8.129  1.00285.49           C  
+ANISOU  324  C6   DA A 116    36304  46201  25969   6380  -1960   1183       C  
+ATOM    325  N6   DA A 116     -56.787  19.758   7.581  1.00280.61           N  
+ANISOU  325  N6   DA A 116    35167  46006  25447   6191  -1157   1844       N  
+ATOM    326  N1   DA A 116     -55.546  19.022   9.391  1.00288.05           N  
+ANISOU  326  N1   DA A 116    37944  45431  26070   6502  -2228   1058       N  
+ATOM    327  C2   DA A 116     -54.351  18.762   9.935  1.00291.64           C  
+ANISOU  327  C2   DA A 116    38866  45493  26450   6660  -3084    480       C  
+ATOM    328  N3   DA A 116     -53.139  18.902   9.402  1.00292.55           N  
+ANISOU  328  N3   DA A 116    38312  46107  26737   6745  -3719    -44       N  
+ATOM    329  C4   DA A 116     -53.222  19.371   8.149  1.00290.19           C  
+ANISOU  329  C4   DA A 116    36738  46874  26646   6635  -3384     44       C  
+ATOM    330  P    DC A 117     -47.629  16.999   7.026  1.00305.48           P  
+ANISOU  330  P    DC A 117    36913  49288  29867   7315  -7174  -3228       P  
+ATOM    331  OP1  DC A 117     -46.499  16.470   7.823  1.00306.74           O  
+ANISOU  331  OP1  DC A 117    37599  48651  30299   7540  -8137  -3638       O  
+ATOM    332  OP2  DC A 117     -47.523  17.019   5.549  1.00303.38           O  
+ANISOU  332  OP2  DC A 117    35241  50220  29810   7172  -6910  -3570       O  
+ATOM    333  O5'  DC A 117     -48.972  16.208   7.414  1.00310.45           O  
+ANISOU  333  O5'  DC A 117    38165  49500  30294   7251  -6758  -2878       O  
+ATOM    334  C5'  DC A 117     -49.440  16.217   8.768  1.00311.42           C  
+ANISOU  334  C5'  DC A 117    39659  48583  30085   7297  -6755  -2412       C  
+ATOM    335  C4'  DC A 117     -50.784  15.511   8.905  1.00314.76           C  
+ANISOU  335  C4'  DC A 117    40448  48778  30370   7216  -6237  -2073       C  
+ATOM    336  O4'  DC A 117     -51.846  16.319   8.323  1.00311.00           O  
+ANISOU  336  O4'  DC A 117    39562  48928  29674   7000  -5276  -1514       O  
+ATOM    337  C3'  DC A 117     -50.882  14.137   8.220  1.00321.86           C  
+ANISOU  337  C3'  DC A 117    40706  49904  31684   7253  -6480  -2606       C  
+ATOM    338  O3'  DC A 117     -51.550  13.216   9.076  1.00327.19           O  
+ANISOU  338  O3'  DC A 117    42289  49709  32319   7320  -6541  -2412       O  
+ATOM    339  C2'  DC A 117     -51.742  14.442   7.000  1.00319.51           C  
+ANISOU  339  C2'  DC A 117    39397  50686  31315   6998  -5705  -2448       C  
+ATOM    340  C1'  DC A 117     -52.689  15.452   7.608  1.00314.41           C  
+ANISOU  340  C1'  DC A 117    39450  49777  30235   6897  -4984  -1576       C  
+ATOM    341  N1   DC A 117     -53.476  16.218   6.618  1.00310.16           N  
+ANISOU  341  N1   DC A 117    38027  50222  29599   6641  -4188  -1126       N  
+ATOM    342  C2   DC A 117     -54.830  16.457   6.863  1.00308.53           C  
+ANISOU  342  C2   DC A 117    38183  49841  29203   6502  -3409   -384       C  
+ATOM    343  O2   DC A 117     -55.336  16.038   7.911  1.00311.09           O  
+ANISOU  343  O2   DC A 117    39605  49193  29401   6596  -3363   -167       O  
+ATOM    344  N3   DC A 117     -55.547  17.150   5.948  1.00303.43           N  
+ANISOU  344  N3   DC A 117    36653  50098  28539   6253  -2724    122       N  
+ATOM    345  C4   DC A 117     -54.961  17.583   4.832  1.00300.80           C  
+ANISOU  345  C4   DC A 117    35148  50850  28293   6121  -2809    -95       C  
+ATOM    346  N4   DC A 117     -55.707  18.263   3.960  1.00295.05           N  
+ANISOU  346  N4   DC A 117    33543  51027  27533   5840  -2160    520       N  
+ATOM    347  C5   DC A 117     -53.582  17.341   4.562  1.00302.91           C  
+ANISOU  347  C5   DC A 117    35062  51320  28711   6256  -3560   -906       C  
+ATOM    348  C6   DC A 117     -52.884  16.658   5.473  1.00307.12           C  
+ANISOU  348  C6   DC A 117    36449  50906  29339   6525  -4226  -1398       C  
+ATOM    349  P    DA A 118     -50.727  12.286  10.093  1.00277.99           P  
+ANISOU  349  P    DA A 118    36823  42451  26348   7555  -7489  -2681       P  
+ATOM    350  OP1  DA A 118     -50.105  13.191  11.086  1.00271.93           O  
+ANISOU  350  OP1  DA A 118    36919  41196  25206   7579  -7796  -2385       O  
+ATOM    351  OP2  DA A 118     -49.889  11.362   9.293  1.00284.53           O  
+ANISOU  351  OP2  DA A 118    36670  43568  27871   7669  -8036  -3471       O  
+ATOM    352  O5'  DA A 118     -51.865  11.438  10.839  1.00282.87           O  
+ANISOU  352  O5'  DA A 118    38319  42327  26830   7548  -7233  -2273       O  
+ATOM    353  C5'  DA A 118     -52.292  11.828  12.145  1.00279.44           C  
+ANISOU  353  C5'  DA A 118    39235  41082  25857   7512  -7120  -1647       C  
+ATOM    354  C4'  DA A 118     -53.807  11.912  12.233  1.00276.15           C  
+ANISOU  354  C4'  DA A 118    39185  40614  25123   7359  -6181  -1084       C  
+ATOM    355  O4'  DA A 118     -54.320  12.669  11.104  1.00270.97           O  
+ANISOU  355  O4'  DA A 118    37553  40946  24459   7201  -5445  -1007       O  
+ATOM    356  C3'  DA A 118     -54.534  10.564  12.214  1.00284.25           C  
+ANISOU  356  C3'  DA A 118    40239  41301  26460   7412  -6167  -1136       C  
+ATOM    357  O3'  DA A 118     -55.545  10.530  13.224  1.00280.25           O  
+ANISOU  357  O3'  DA A 118    40878  40062  25544   7343  -5718   -496       O  
+ATOM    358  C2'  DA A 118     -55.135  10.512  10.814  1.00285.43           C  
+ANISOU  358  C2'  DA A 118    39148  42450  26852   7277  -5596  -1347       C  
+ATOM    359  C1'  DA A 118     -55.411  11.980  10.548  1.00274.28           C  
+ANISOU  359  C1'  DA A 118    37579  41604  25029   7111  -4945   -910       C  
+ATOM    360  N9   DA A 118     -55.489  12.290   9.129  1.00272.69           N  
+ANISOU  360  N9   DA A 118    36030  42582  24997   6952  -4615  -1131       N  
+ATOM    361  C8   DA A 118     -54.449  12.401   8.252  1.00274.00           C  
+ANISOU  361  C8   DA A 118    35218  43477  25414   6963  -5035  -1736       C  
+ATOM    362  N7   DA A 118     -54.820  12.673   7.025  1.00271.20           N  
+ANISOU  362  N7   DA A 118    33750  44212  25084   6732  -4584  -1781       N  
+ATOM    363  C5   DA A 118     -56.201  12.740   7.103  1.00267.53           C  
+ANISOU  363  C5   DA A 118    33522  43710  24416   6571  -3852  -1130       C  
+ATOM    364  C6   DA A 118     -57.195  12.995   6.141  1.00262.41           C  
+ANISOU  364  C6   DA A 118    32047  43964  23692   6268  -3167   -770       C  
+ATOM    365  N6   DA A 118     -56.928  13.241   4.855  1.00260.39           N  
+ANISOU  365  N6   DA A 118    30533  44928  23476   6033  -3114  -1043       N  
+ATOM    366  N1   DA A 118     -58.480  12.987   6.553  1.00258.46           N  
+ANISOU  366  N1   DA A 118    32048  43087  23069   6184  -2543    -84       N  
+ATOM    367  C2   DA A 118     -58.744  12.740   7.841  1.00259.96           C  
+ANISOU  367  C2   DA A 118    33514  42089  23170   6381  -2565    178       C  
+ATOM    368  N3   DA A 118     -57.895  12.487   8.835  1.00264.69           N  
+ANISOU  368  N3   DA A 118    35009  41817  23745   6633  -3182   -105       N  
+ATOM    369  C4   DA A 118     -56.629  12.501   8.395  1.00268.31           C  
+ANISOU  369  C4   DA A 118    34909  42666  24371   6721  -3834   -747       C  
+ATOM    370  P    DT A 119     -56.619   9.332  13.263  1.00289.79           P  
+ANISOU  370  P    DT A 119    42214  40900  26994   7357  -5448   -361       P  
+ATOM    371  OP1  DT A 119     -57.159   9.247  14.638  1.00285.26           O  
+ANISOU  371  OP1  DT A 119    43055  39348  25982   7333  -5332    227       O  
+ATOM    372  OP2  DT A 119     -55.992   8.135  12.658  1.00303.18           O  
+ANISOU  372  OP2  DT A 119    43121  42687  29386   7508  -6099  -1036       O  
+ATOM    373  O5'  DT A 119     -57.776   9.824  12.273  1.00283.59           O  
+ANISOU  373  O5'  DT A 119    40675  40912  26163   7156  -4450   -117       O  
+ATOM    374  C5'  DT A 119     -59.142   9.656  12.629  1.00280.09           C  
+ANISOU  374  C5'  DT A 119    40748  40109  25564   7054  -3716    460       C  
+ATOM    375  C4'  DT A 119     -59.958   9.186  11.437  1.00283.34           C  
+ANISOU  375  C4'  DT A 119    40075  41267  26315   6918  -3269    340       C  
+ATOM    376  O4'  DT A 119     -59.441   9.788  10.238  1.00282.00           O  
+ANISOU  376  O4'  DT A 119    38707  42207  26234   6805  -3273     -8       O  
+ATOM    377  C3'  DT A 119     -59.913   7.683  11.178  1.00296.90           C  
+ANISOU  377  C3'  DT A 119    41465  42786  28557   7009  -3720   -189       C  
+ATOM    378  O3'  DT A 119     -61.064   7.038  11.764  1.00297.78           O  
+ANISOU  378  O3'  DT A 119    42236  42230  28678   6994  -3305    267       O  
+ATOM    379  C2'  DT A 119     -59.874   7.549   9.643  1.00299.72           C  
+ANISOU  379  C2'  DT A 119    40347  44322  29213   6822  -3610   -728       C  
+ATOM    380  C1'  DT A 119     -59.824   8.996   9.144  1.00287.95           C  
+ANISOU  380  C1'  DT A 119    38429  43640  27338   6663  -3191   -400       C  
+ATOM    381  N1   DT A 119     -58.848   9.203   8.040  1.00289.61           N  
+ANISOU  381  N1   DT A 119    37492  44837  27710   6589  -3543  -1058       N  
+ATOM    382  C2   DT A 119     -59.299   9.606   6.809  1.00283.12           C  
+ANISOU  382  C2   DT A 119    35556  45191  26828   6278  -3080  -1033       C  
+ATOM    383  O2   DT A 119     -60.470   9.818   6.567  1.00276.24           O  
+ANISOU  383  O2   DT A 119    34552  44588  25818   6065  -2418   -456       O  
+ATOM    384  N3   DT A 119     -58.325   9.761   5.862  1.00284.19           N  
+ANISOU  384  N3   DT A 119    34706  46197  27075   6197  -3426  -1674       N  
+ATOM    385  C4   DT A 119     -56.972   9.553   6.022  1.00290.84           C  
+ANISOU  385  C4   DT A 119    35546  46801  28159   6423  -4155  -2334       C  
+ATOM    386  O4   DT A 119     -56.170   9.718   5.109  1.00290.49           O  
+ANISOU  386  O4   DT A 119    34560  47583  28230   6322  -4371  -2896       O  
+ATOM    387  C5   DT A 119     -56.569   9.126   7.339  1.00297.64           C  
+ANISOU  387  C5   DT A 119    37569  46390  29132   6756  -4649  -2277       C  
+ATOM    388  C7   DT A 119     -55.127   8.865   7.635  1.00304.83           C  
+ANISOU  388  C7   DT A 119    38530  46923  30370   7007  -5498  -2871       C  
+ATOM    389  C6   DT A 119     -57.514   8.972   8.271  1.00296.75           C  
+ANISOU  389  C6   DT A 119    38448  45474  28829   6806  -4331  -1647       C  
+ATOM    390  P    DC A 120     -62.486   6.974  11.005  1.00328.36           P  
+ANISOU  390  P    DC A 120    45521  46622  32617   6749  -2447    599       P  
+ATOM    391  OP1  DC A 120     -62.750   8.252  10.302  1.00316.38           O  
+ANISOU  391  OP1  DC A 120    43389  45998  30823   6539  -1879    937       O  
+ATOM    392  OP2  DC A 120     -63.461   6.513  12.017  1.00326.41           O  
+ANISOU  392  OP2  DC A 120    46319  45403  32299   6800  -2090   1170       O  
+ATOM    393  O5'  DC A 120     -62.310   5.778   9.955  1.00340.42           O  
+ANISOU  393  O5'  DC A 120    45962  48660  34721   6687  -2786   -202       O  
+ATOM    394  C5'  DC A 120     -63.451   5.196   9.333  1.00340.04           C  
+ANISOU  394  C5'  DC A 120    45398  48930  34875   6467  -2274   -123       C  
+ATOM    395  C4'  DC A 120     -64.053   6.146   8.314  1.00329.03           C  
+ANISOU  395  C4'  DC A 120    43122  48681  33215   6133  -1657    194       C  
+ATOM    396  O4'  DC A 120     -62.991   6.923   7.700  1.00326.56           O  
+ANISOU  396  O4'  DC A 120    42172  49151  32754   6103  -1967   -169       O  
+ATOM    397  C3'  DC A 120     -64.789   5.471   7.157  1.00331.77           C  
+ANISOU  397  C3'  DC A 120    42398  49852  33806   5790  -1392    -93       C  
+ATOM    398  O3'  DC A 120     -65.863   6.292   6.713  1.00319.43           O  
+ANISOU  398  O3'  DC A 120    40474  48913  31984   5500   -661    682       O  
+ATOM    399  C2'  DC A 120     -63.702   5.378   6.098  1.00336.48           C  
+ANISOU  399  C2'  DC A 120    41933  51400  34515   5662  -1869  -1001       C  
+ATOM    400  C1'  DC A 120     -63.001   6.708   6.306  1.00327.34           C  
+ANISOU  400  C1'  DC A 120    40951  50449  32974   5775  -1924   -670       C  
+ATOM    401  N1   DC A 120     -61.606   6.733   5.810  1.00329.91           N  
+ANISOU  401  N1   DC A 120    40711  51228  33414   5840  -2541  -1484       N  
+ATOM    402  C2   DC A 120     -61.326   7.380   4.609  1.00322.93           C  
+ANISOU  402  C2   DC A 120    38698  51655  32344   5530  -2427  -1686       C  
+ATOM    403  O2   DC A 120     -62.251   7.912   3.987  1.00313.80           O  
+ANISOU  403  O2   DC A 120    37021  51273  30934   5198  -1854  -1131       O  
+ATOM    404  N3   DC A 120     -60.050   7.407   4.158  1.00325.41           N  
+ANISOU  404  N3   DC A 120    38492  52364  32786   5587  -2948  -2440       N  
+ATOM    405  C4   DC A 120     -59.083   6.820   4.862  1.00334.24           C  
+ANISOU  405  C4   DC A 120    40145  52592  34260   5945  -3581  -2947       C  
+ATOM    406  N4   DC A 120     -57.839   6.874   4.377  1.00335.78           N  
+ANISOU  406  N4   DC A 120    39754  53180  34646   5992  -4059  -3666       N  
+ATOM    407  C5   DC A 120     -59.348   6.154   6.095  1.00341.18           C  
+ANISOU  407  C5   DC A 120    42154  52146  35334   6252  -3757  -2689       C  
+ATOM    408  C6   DC A 120     -60.613   6.135   6.528  1.00338.58           C  
+ANISOU  408  C6   DC A 120    42363  51466  34817   6183  -3214  -1974       C  
+ATOM    409  P    DA A 121     -67.150   5.627   6.014  1.00337.01           P  
+ANISOU  409  P    DA A 121    42070  51585  34394   5141   -198    841       P  
+ATOM    410  OP1  DA A 121     -68.049   6.719   5.575  1.00321.02           O  
+ANISOU  410  OP1  DA A 121    39609  50247  32117   4859    477   1756       O  
+ATOM    411  OP2  DA A 121     -67.659   4.589   6.933  1.00344.94           O  
+ANISOU  411  OP2  DA A 121    43954  51402  35706   5361   -202    873       O  
+ATOM    412  O5'  DA A 121     -66.554   4.865   4.738  1.00341.98           O  
+ANISOU  412  O5'  DA A 121    41485  53247  35206   4843   -614   -230       O  
+ATOM    413  C5'  DA A 121     -66.493   3.437   4.720  1.00355.65           C  
+ANISOU  413  C5'  DA A 121    43177  54540  37412   4867   -912  -1012       C  
+ATOM    414  C4'  DA A 121     -66.156   2.930   3.329  1.00355.23           C  
+ANISOU  414  C4'  DA A 121    41820  55695  37454   4425  -1067  -1956       C  
+ATOM    415  O4'  DA A 121     -64.897   3.512   2.891  1.00353.62           O  
+ANISOU  415  O4'  DA A 121    41175  56094  37090   4461  -1458  -2457       O  
+ATOM    416  C3'  DA A 121     -65.983   1.414   3.215  1.00369.18           C  
+ANISOU  416  C3'  DA A 121    43418  57015  39840   4418  -1343  -2936       C  
+ATOM    417  O3'  DA A 121     -66.575   0.940   2.006  1.00365.72           O  
+ANISOU  417  O3'  DA A 121    41904  57664  39390   3822  -1080  -3395       O  
+ATOM    418  C2'  DA A 121     -64.468   1.240   3.204  1.00377.31           C  
+ANISOU  418  C2'  DA A 121    44325  57905  41130   4666  -1961  -3813       C  
+ATOM    419  C1'  DA A 121     -64.032   2.487   2.456  1.00365.56           C  
+ANISOU  419  C1'  DA A 121    42207  57626  39061   4441  -1901  -3653       C  
+ATOM    420  N9   DA A 121     -62.663   2.884   2.752  1.00368.35           N  
+ANISOU  420  N9   DA A 121    42739  57745  39474   4780  -2419  -4008       N  
+ATOM    421  C8   DA A 121     -61.975   2.661   3.910  1.00376.85           C  
+ANISOU  421  C8   DA A 121    44770  57558  40859   5311  -2875  -3980       C  
+ATOM    422  N7   DA A 121     -60.753   3.135   3.899  1.00376.01           N  
+ANISOU  422  N7   DA A 121    44554  57562  40752   5492  -3316  -4322       N  
+ATOM    423  C5   DA A 121     -60.633   3.709   2.646  1.00367.23           C  
+ANISOU  423  C5   DA A 121    42352  57871  39308   5067  -3103  -4608       C  
+ATOM    424  C6   DA A 121     -59.575   4.384   2.009  1.00362.18           C  
+ANISOU  424  C6   DA A 121    41070  58025  38517   5003  -3338  -5018       C  
+ATOM    425  N6   DA A 121     -58.388   4.598   2.583  1.00365.71           N  
+ANISOU  425  N6   DA A 121    41894  57881  39177   5400  -3875  -5237       N  
+ATOM    426  N1   DA A 121     -59.785   4.831   0.755  1.00352.94           N  
+ANISOU  426  N1   DA A 121    38834  58307  36960   4487  -3014  -5162       N  
+ATOM    427  C2   DA A 121     -60.975   4.615   0.183  1.00348.41           C  
+ANISOU  427  C2   DA A 121    37858  58360  36162   4046  -2527  -4895       C  
+ATOM    428  N3   DA A 121     -62.042   3.995   0.680  1.00352.00           N  
+ANISOU  428  N3   DA A 121    38821  58159  36765   4064  -2274  -4514       N  
+ATOM    429  C4   DA A 121     -61.802   3.562   1.926  1.00361.87           C  
+ANISOU  429  C4   DA A 121    41140  57947  38407   4605  -2566  -4400       C  
+TER     430       DA A 121                                                      
+ATOM    431  P    DC B 119     -59.957  23.071  16.979  1.00265.06           P  
+ANISOU  431  P    DC B 119    38493  37441  24778   5467  -4099    837       P  
+ATOM    432  OP1  DC B 119     -61.150  22.454  17.599  1.00257.11           O  
+ANISOU  432  OP1  DC B 119    37614  36609  23468   5802  -4079   1286       O  
+ATOM    433  OP2  DC B 119     -59.177  24.090  17.716  1.00277.98           O  
+ANISOU  433  OP2  DC B 119    39322  39547  26751   5868  -4319    -44       O  
+ATOM    434  O5'  DC B 119     -58.948  21.915  16.535  1.00258.65           O  
+ANISOU  434  O5'  DC B 119    38183  36693  23398   5520  -3577   1035       O  
+ATOM    435  C5'  DC B 119     -58.933  20.677  17.228  1.00252.45           C  
+ANISOU  435  C5'  DC B 119    37590  36383  21947   6212  -3150   1305       C  
+ATOM    436  C4'  DC B 119     -58.097  19.653  16.478  1.00249.73           C  
+ANISOU  436  C4'  DC B 119    37861  35824  21202   6040  -2623   1600       C  
+ATOM    437  O4'  DC B 119     -58.515  19.612  15.089  1.00248.40           O  
+ANISOU  437  O4'  DC B 119    38338  34796  21244   5005  -2637   2033       O  
+ATOM    438  C3'  DC B 119     -56.598  19.935  16.460  1.00254.40           C  
+ANISOU  438  C3'  DC B 119    38127  36776  21758   6260  -2528   1058       C  
+ATOM    439  O3'  DC B 119     -55.865  18.722  16.532  1.00251.03           O  
+ANISOU  439  O3'  DC B 119    38046  36604  20728   6721  -1929   1309       O  
+ATOM    440  C2'  DC B 119     -56.390  20.636  15.123  1.00258.30           C  
+ANISOU  440  C2'  DC B 119    38881  36519  22744   5246  -2738   1053       C  
+ATOM    441  C1'  DC B 119     -57.442  19.973  14.241  1.00252.85           C  
+ANISOU  441  C1'  DC B 119    38963  35136  21974   4576  -2612   1792       C  
+ATOM    442  N1   DC B 119     -57.970  20.876  13.177  1.00255.65           N  
+ANISOU  442  N1   DC B 119    39425  34835  22876   3626  -2999   1929       N  
+ATOM    443  C2   DC B 119     -57.160  21.220  12.091  1.00259.51           C  
+ANISOU  443  C2   DC B 119    40084  34954  23566   3010  -2981   1866       C  
+ATOM    444  O2   DC B 119     -56.010  20.763  12.025  1.00260.65           O  
+ANISOU  444  O2   DC B 119    40302  35305  23428   3242  -2656   1666       O  
+ATOM    445  N3   DC B 119     -57.655  22.046  11.138  1.00262.11           N  
+ANISOU  445  N3   DC B 119    40468  34744  24378   2208  -3302   2068       N  
+ATOM    446  C4   DC B 119     -58.900  22.518  11.244  1.00261.01           C  
+ANISOU  446  C4   DC B 119    40221  34442  24509   2024  -3628   2323       C  
+ATOM    447  N4   DC B 119     -59.343  23.327  10.279  1.00263.79           N  
+ANISOU  447  N4   DC B 119    40600  34316  25314   1284  -3902   2589       N  
+ATOM    448  C5   DC B 119     -59.741  22.179  12.341  1.00257.10           C  
+ANISOU  448  C5   DC B 119    39563  34306  23816   2622  -3668   2359       C  
+ATOM    449  C6   DC B 119     -59.241  21.365  13.275  1.00254.49           C  
+ANISOU  449  C6   DC B 119    39180  34498  23016   3402  -3350   2158       C  
+ATOM    450  P    DC B 120     -54.613  18.608  17.532  1.00254.02           P  
+ANISOU  450  P    DC B 120    37791  38018  20707   7720  -1726    815       P  
+ATOM    451  OP1  DC B 120     -54.032  17.257  17.386  1.00250.39           O  
+ANISOU  451  OP1  DC B 120    37855  37617  19666   8096  -1029   1284       O  
+ATOM    452  OP2  DC B 120     -55.063  19.081  18.860  1.00254.75           O  
+ANISOU  452  OP2  DC B 120    37129  38886  20777   8447  -2019    457       O  
+ATOM    453  O5'  DC B 120     -53.563  19.675  16.966  1.00260.75           O  
+ANISOU  453  O5'  DC B 120    38275  38831  21967   7254  -2019    172       O  
+ATOM    454  C5'  DC B 120     -52.816  19.386  15.785  1.00261.91           C  
+ANISOU  454  C5'  DC B 120    38952  38452  22110   6664  -1769    352       C  
+ATOM    455  C4'  DC B 120     -51.953  20.572  15.374  1.00268.54           C  
+ANISOU  455  C4'  DC B 120    39323  39278  23432   6232  -2108   -290       C  
+ATOM    456  O4'  DC B 120     -52.708  21.448  14.499  1.00271.83           O  
+ANISOU  456  O4'  DC B 120    39921  38844  24517   5294  -2507   -188       O  
+ATOM    457  C3'  DC B 120     -51.456  21.449  16.521  1.00272.94           C  
+ANISOU  457  C3'  DC B 120    38873  40732  24101   6834  -2399  -1129       C  
+ATOM    458  O3'  DC B 120     -50.158  21.936  16.228  1.00279.46           O  
+ANISOU  458  O3'  DC B 120    39351  41806  25024   6704  -2386  -1664       O  
+ATOM    459  C2'  DC B 120     -52.478  22.580  16.541  1.00277.99           C  
+ANISOU  459  C2'  DC B 120    39262  40913  25448   6363  -2927  -1325       C  
+ATOM    460  C1'  DC B 120     -52.774  22.743  15.056  1.00281.72           C  
+ANISOU  460  C1'  DC B 120    40413  40301  26326   5319  -2970   -840       C  
+ATOM    461  N1   DC B 120     -54.119  23.286  14.782  1.00283.82           N  
+ANISOU  461  N1   DC B 120    40829  39936  27073   4823  -3312   -529       N  
+ATOM    462  C2   DC B 120     -54.570  23.382  13.462  1.00285.58           C  
+ANISOU  462  C2   DC B 120    41640  39283  27583   3911  -3358     10       C  
+ATOM    463  O2   DC B 120     -53.829  23.016  12.540  1.00285.43           O  
+ANISOU  463  O2   DC B 120    42021  39005  27424   3516  -3115    184       O  
+ATOM    464  N3   DC B 120     -55.807  23.879  13.229  1.00287.02           N  
+ANISOU  464  N3   DC B 120    41905  38992  28158   3505  -3662    336       N  
+ATOM    465  C4   DC B 120     -56.575  24.261  14.249  1.00287.39           C  
+ANISOU  465  C4   DC B 120    41510  39344  28340   3969  -3906    134       C  
+ATOM    466  N4   DC B 120     -57.789  24.743  13.970  1.00288.68           N  
+ANISOU  466  N4   DC B 120    41761  39046  28880   3570  -4188    502       N  
+ATOM    467  C5   DC B 120     -56.132  24.169  15.602  1.00286.09           C  
+ANISOU  467  C5   DC B 120    40756  40047  27896   4883  -3868   -446       C  
+ATOM    468  C6   DC B 120     -54.910  23.681  15.819  1.00284.01           C  
+ANISOU  468  C6   DC B 120    40385  40310  27217   5282  -3572   -752       C  
+ATOM    469  P    DG B 121     -48.858  21.216  16.839  1.00243.75           P  
+ANISOU  469  P    DG B 121    34506  38330  19779   7555  -1972  -1885       P  
+ATOM    470  OP1  DG B 121     -49.086  19.755  16.779  1.00237.67           O  
+ANISOU  470  OP1  DG B 121    34431  37495  18379   7968  -1432  -1078       O  
+ATOM    471  OP2  DG B 121     -48.535  21.840  18.143  1.00246.46           O  
+ANISOU  471  OP2  DG B 121    33825  39783  20037   8255  -2200  -2683       O  
+ATOM    472  O5'  DG B 121     -47.709  21.611  15.801  1.00248.21           O  
+ANISOU  472  O5'  DG B 121    35146  38584  20576   6927  -1923  -2120       O  
+ATOM    473  C5'  DG B 121     -47.827  21.216  14.434  1.00249.85           C  
+ANISOU  473  C5'  DG B 121    36226  37794  20910   6148  -1749  -1504       C  
+ATOM    474  C4'  DG B 121     -47.561  22.383  13.494  1.00260.40           C  
+ANISOU  474  C4'  DG B 121    37460  38493  22985   5215  -2084  -1813       C  
+ATOM    475  O4'  DG B 121     -48.759  23.194  13.362  1.00266.95           O  
+ANISOU  475  O4'  DG B 121    38292  38683  24455   4707  -2502  -1745       O  
+ATOM    476  C3'  DG B 121     -46.451  23.334  13.934  1.00265.93           C  
+ANISOU  476  C3'  DG B 121    37283  39836  23922   5339  -2253  -2717       C  
+ATOM    477  O3'  DG B 121     -45.700  23.768  12.801  1.00272.71           O  
+ANISOU  477  O3'  DG B 121    38314  40173  25129   4601  -2232  -2747       O  
+ATOM    478  C2'  DG B 121     -47.218  24.484  14.580  1.00270.28           C  
+ANISOU  478  C2'  DG B 121    37245  40340  25111   5246  -2721  -3230       C  
+ATOM    479  C1'  DG B 121     -48.485  24.528  13.742  1.00275.33           C  
+ANISOU  479  C1'  DG B 121    38573  39896  26145   4574  -2867  -2522       C  
+ATOM    480  N9   DG B 121     -49.632  25.034  14.475  1.00277.67           N  
+ANISOU  480  N9   DG B 121    38589  40159  26754   4732  -3188  -2626       N  
+ATOM    481  C8   DG B 121     -49.882  24.892  15.819  1.00272.23           C  
+ANISOU  481  C8   DG B 121    37378  40314  25742   5562  -3242  -2984       C  
+ATOM    482  N7   DG B 121     -50.995  25.449  16.200  1.00276.43           N  
+ANISOU  482  N7   DG B 121    37766  40589  26677   5506  -3550  -2994       N  
+ATOM    483  C5   DG B 121     -51.516  25.994  15.032  1.00285.01           C  
+ANISOU  483  C5   DG B 121    39297  40605  28388   4598  -3700  -2586       C  
+ATOM    484  C6   DG B 121     -52.708  26.722  14.821  1.00292.38           C  
+ANISOU  484  C6   DG B 121    40286  40870  29936   4177  -4010  -2359       C  
+ATOM    485  O6   DG B 121     -53.567  27.039  15.650  1.00293.21           O  
+ANISOU  485  O6   DG B 121    40073  41157  30178   4514  -4226  -2508       O  
+ATOM    486  N1   DG B 121     -52.856  27.092  13.486  1.00298.46           N  
+ANISOU  486  N1   DG B 121    41512  40726  31165   3304  -4045  -1884       N  
+ATOM    487  C2   DG B 121     -51.965  26.795  12.485  1.00298.35           C  
+ANISOU  487  C2   DG B 121    41860  40470  31030   2874  -3820  -1687       C  
+ATOM    488  N2   DG B 121     -52.279  27.237  11.259  1.00303.44           N  
+ANISOU  488  N2   DG B 121    42874  40288  32132   2060  -3892  -1197       N  
+ATOM    489  N3   DG B 121     -50.845  26.113  12.670  1.00292.45           N  
+ANISOU  489  N3   DG B 121    41089  40302  29729   3246  -3532  -1925       N  
+ATOM    490  C4   DG B 121     -50.687  25.747  13.965  1.00285.71           C  
+ANISOU  490  C4   DG B 121    39786  40346  28424   4114  -3484  -2358       C  
+ATOM    491  P    DT B 122     -44.598  24.930  12.950  1.00275.01           P  
+ANISOU  491  P    DT B 122    37765  40849  25877   4422  -2413  -3670       P  
+ATOM    492  OP1  DT B 122     -43.624  24.756  11.847  1.00277.15           O  
+ANISOU  492  OP1  DT B 122    38373  40828  26103   3950  -2181  -3476       O  
+ATOM    493  OP2  DT B 122     -44.117  24.934  14.351  1.00271.64           O  
+ANISOU  493  OP2  DT B 122    36506  41661  25046   5304  -2417  -4378       O  
+ATOM    494  O5'  DT B 122     -45.430  26.276  12.696  1.00283.90           O  
+ANISOU  494  O5'  DT B 122    38684  41169  28017   3719  -2842  -3890       O  
+ATOM    495  C5'  DT B 122     -46.106  26.472  11.453  1.00290.35           C  
+ANISOU  495  C5'  DT B 122    40160  40869  29291   2890  -2913  -3210       C  
+ATOM    496  C4'  DT B 122     -46.631  27.892  11.334  1.00300.42           C  
+ANISOU  496  C4'  DT B 122    41043  41528  31574   2345  -3258  -3526       C  
+ATOM    497  O4'  DT B 122     -47.857  28.029  12.104  1.00304.18           O  
+ANISOU  497  O4'  DT B 122    41418  41991  32166   2642  -3487  -3484       O  
+ATOM    498  C3'  DT B 122     -45.681  28.975  11.853  1.00299.24           C  
+ANISOU  498  C3'  DT B 122    40000  41760  31938   2339  -3338  -4558       C  
+ATOM    499  O3'  DT B 122     -45.699  30.106  10.983  1.00303.91           O  
+ANISOU  499  O3'  DT B 122    40536  41452  33482   1525  -3440  -4563       O  
+ATOM    500  C2'  DT B 122     -46.265  29.311  13.220  1.00299.23           C  
+ANISOU  500  C2'  DT B 122    39391  42320  31983   2927  -3545  -5157       C  
+ATOM    501  C1'  DT B 122     -47.750  29.154  12.943  1.00305.52           C  
+ANISOU  501  C1'  DT B 122    40750  42406  32929   2764  -3700  -4376       C  
+ATOM    502  N1   DT B 122     -48.558  28.917  14.157  1.00304.44           N  
+ANISOU  502  N1   DT B 122    40348  42826  32499   3456  -3838  -4553       N  
+ATOM    503  C2   DT B 122     -49.884  29.259  14.151  1.00311.19           C  
+ANISOU  503  C2   DT B 122    41387  43097  33753   3291  -4061  -4172       C  
+ATOM    504  O2   DT B 122     -50.440  29.744  13.186  1.00318.03           O  
+ANISOU  504  O2   DT B 122    42616  43034  35187   2616  -4146  -3666       O  
+ATOM    505  N3   DT B 122     -50.545  29.006  15.323  1.00308.46           N  
+ANISOU  505  N3   DT B 122    40756  43360  33086   3978  -4172  -4368       N  
+ATOM    506  C4   DT B 122     -50.013  28.461  16.474  1.00299.36           C  
+ANISOU  506  C4   DT B 122    39138  43357  31249   4816  -4076  -4876       C  
+ATOM    507  O4   DT B 122     -50.683  28.267  17.482  1.00295.94           O  
+ANISOU  507  O4   DT B 122    38448  43450  30546   5418  -4179  -4985       O  
+ATOM    508  C5   DT B 122     -48.614  28.129  16.407  1.00293.32           C  
+ANISOU  508  C5   DT B 122    38177  43197  30074   4964  -3833  -5230       C  
+ATOM    509  C7   DT B 122     -47.929  27.531  17.591  1.00283.70           C  
+ANISOU  509  C7   DT B 122    36398  43342  28051   5901  -3692  -5727       C  
+ATOM    510  C6   DT B 122     -47.962  28.372  15.266  1.00296.03           C  
+ANISOU  510  C6   DT B 122    38818  42914  30745   4276  -3731  -5067       C  
+ATOM    511  P    DA B 123     -44.323  30.825  10.565  1.00285.48           P  
+ANISOU  511  P    DA B 123    37751  39152  31568   1120  -3311  -5164       P  
+ATOM    512  OP1  DA B 123     -43.715  30.025   9.480  1.00284.67           O  
+ANISOU  512  OP1  DA B 123    38276  38904  30982    860  -3074  -4510       O  
+ATOM    513  OP2  DA B 123     -43.553  31.102  11.798  1.00282.94           O  
+ANISOU  513  OP2  DA B 123    36552  39846  31107   1652  -3318  -6265       O  
+ATOM    514  O5'  DA B 123     -44.788  32.226   9.952  1.00289.85           O  
+ANISOU  514  O5'  DA B 123    38145  38641  33345    368  -3441  -5170       O  
+ATOM    515  C5'  DA B 123     -45.563  32.259   8.757  1.00294.36           C  
+ANISOU  515  C5'  DA B 123    39384  38258  34203   -204  -3463  -4168       C  
+ATOM    516  C4'  DA B 123     -46.862  33.015   8.974  1.00300.09           C  
+ANISOU  516  C4'  DA B 123    40034  38378  35610   -305  -3681  -3996       C  
+ATOM    517  O4'  DA B 123     -47.516  32.518  10.176  1.00302.14           O  
+ANISOU  517  O4'  DA B 123    40154  39266  35380    397  -3827  -4259       O  
+ATOM    518  C3'  DA B 123     -46.711  34.522   9.187  1.00299.49           C  
+ANISOU  518  C3'  DA B 123    39272  37817  36704   -620  -3696  -4682       C  
+ATOM    519  O3'  DA B 123     -47.844  35.203   8.649  1.00303.89           O  
+ANISOU  519  O3'  DA B 123    40033  37456  37977   -983  -3790  -4038       O  
+ATOM    520  C2'  DA B 123     -46.680  34.625  10.704  1.00298.36           C  
+ANISOU  520  C2'  DA B 123    38472  38472  36420     24  -3802  -5698       C  
+ATOM    521  C1'  DA B 123     -47.730  33.594  11.067  1.00302.24           C  
+ANISOU  521  C1'  DA B 123    39448  39268  36121    520  -3954  -5075       C  
+ATOM    522  N9   DA B 123     -47.622  33.104  12.436  1.00299.68           N  
+ANISOU  522  N9   DA B 123    38700  39999  35167   1307  -4019  -5759       N  
+ATOM    523  C8   DA B 123     -46.486  32.703  13.080  1.00293.26           C  
+ANISOU  523  C8   DA B 123    37457  40186  33781   1728  -3900  -6469       C  
+ATOM    524  N7   DA B 123     -46.688  32.309  14.314  1.00290.86           N  
+ANISOU  524  N7   DA B 123    36779  40797  32936   2471  -3986  -6925       N  
+ATOM    525  C5   DA B 123     -48.052  32.462  14.492  1.00296.38           C  
+ANISOU  525  C5   DA B 123    37700  41016  33894   2520  -4179  -6503       C  
+ATOM    526  C6   DA B 123     -48.898  32.216  15.590  1.00296.35           C  
+ANISOU  526  C6   DA B 123    37489  41541  33569   3161  -4340  -6648       C  
+ATOM    527  N6   DA B 123     -48.462  31.741  16.761  1.00289.75           N  
+ANISOU  527  N6   DA B 123    36140  41914  32037   3924  -4324  -7268       N  
+ATOM    528  N1   DA B 123     -50.212  32.478  15.437  1.00301.82           N  
+ANISOU  528  N1   DA B 123    38487  41537  34655   3013  -4512  -6099       N  
+ATOM    529  C2   DA B 123     -50.643  32.954  14.263  1.00307.41           C  
+ANISOU  529  C2   DA B 123    39651  41144  36006   2293  -4516  -5431       C  
+ATOM    530  N3   DA B 123     -49.945  33.224  13.161  1.00307.74           N  
+ANISOU  530  N3   DA B 123    39912  40625  36389   1666  -4367  -5205       N  
+ATOM    531  C4   DA B 123     -48.643  32.954  13.345  1.00302.08           C  
+ANISOU  531  C4   DA B 123    38909  40570  35296   1809  -4204  -5786       C  
+ATOM    532  P    DC B 124     -47.784  36.782   8.349  1.00246.58           P  
+ANISOU  532  P    DC B 124    32293  29301  32097  -1501  -3681  -4331       P  
+ATOM    533  OP1  DC B 124     -49.167  37.257   8.121  1.00250.32           O  
+ANISOU  533  OP1  DC B 124    32961  29071  33079  -1597  -3801  -3639       O  
+ATOM    534  OP2  DC B 124     -46.761  36.997   7.305  1.00245.28           O  
+ANISOU  534  OP2  DC B 124    32203  28820  32170  -2048  -3451  -4155       O  
+ATOM    535  O5'  DC B 124     -47.241  37.421   9.710  1.00244.39           O  
+ANISOU  535  O5'  DC B 124    31147  29532  32176  -1155  -3671  -5747       O  
+ATOM    536  C5'  DC B 124     -47.946  38.486  10.329  1.00246.01           C  
+ANISOU  536  C5'  DC B 124    30896  29274  33301  -1129  -3705  -6203       C  
+ATOM    537  C4'  DC B 124     -49.035  37.959  11.251  1.00248.00           C  
+ANISOU  537  C4'  DC B 124    31222  29991  33014   -511  -3969  -6140       C  
+ATOM    538  O4'  DC B 124     -48.509  36.904  12.071  1.00244.99           O  
+ANISOU  538  O4'  DC B 124    30758  30797  31530     74  -4055  -6594       O  
+ATOM    539  C3'  DC B 124     -49.589  38.982  12.236  1.00249.63           C  
+ANISOU  539  C3'  DC B 124    30805  30017  34028   -326  -4006  -6942       C  
+ATOM    540  O3'  DC B 124     -50.780  39.563  11.713  1.00253.41           O  
+ANISOU  540  O3'  DC B 124    31559  29533  35192   -542  -4030  -6129       O  
+ATOM    541  C2'  DC B 124     -49.876  38.169  13.515  1.00248.67           C  
+ANISOU  541  C2'  DC B 124    30499  31018  32968    452  -4234  -7418       C  
+ATOM    542  C1'  DC B 124     -49.334  36.770  13.198  1.00246.14           C  
+ANISOU  542  C1'  DC B 124    30672  31418  31430    663  -4252  -6912       C  
+ATOM    543  N1   DC B 124     -48.527  36.168  14.305  1.00241.40           N  
+ANISOU  543  N1   DC B 124    29598  32107  30018   1273  -4267  -7809       N  
+ATOM    544  C2   DC B 124     -49.162  35.746  15.479  1.00240.32           C  
+ANISOU  544  C2   DC B 124    29234  32738  29339   1984  -4446  -8092       C  
+ATOM    545  O2   DC B 124     -50.386  35.886  15.591  1.00245.45           O  
+ANISOU  545  O2   DC B 124    30094  32952  30212   2072  -4598  -7630       O  
+ATOM    546  N3   DC B 124     -48.414  35.199  16.468  1.00235.32           N  
+ANISOU  546  N3   DC B 124    28119  33367  27924   2583  -4437  -8840       N  
+ATOM    547  C4   DC B 124     -47.097  35.064  16.313  1.00236.46           C  
+ANISOU  547  C4   DC B 124    28014  34014  27815   2486  -4267  -9302       C  
+ATOM    548  N4   DC B 124     -46.405  34.515  17.316  1.00238.24           N  
+ANISOU  548  N4   DC B 124    27717  35589  27213   3139  -4254  -9984       N  
+ATOM    549  C5   DC B 124     -46.431  35.482  15.123  1.00237.19           C  
+ANISOU  549  C5   DC B 124    28350  33307  28462   1741  -4093  -9049       C  
+ATOM    550  C6   DC B 124     -47.178  36.021  14.154  1.00238.63           C  
+ANISOU  550  C6   DC B 124    29010  32238  29422   1161  -4097  -8297       C  
+ATOM    551  P    DA B 125     -50.771  41.071  11.158  1.00276.51           P  
+ANISOU  551  P    DA B 125    34184  31258  39621  -1113  -3739  -6205       P  
+ATOM    552  OP1  DA B 125     -51.537  41.087   9.891  1.00279.87           O  
+ANISOU  552  OP1  DA B 125    35220  30880  40240  -1468  -3717  -4784       O  
+ATOM    553  OP2  DA B 125     -49.369  41.543  11.177  1.00272.51           O  
+ANISOU  553  OP2  DA B 125    33198  30837  39507  -1430  -3485  -7152       O  
+ATOM    554  O5'  DA B 125     -51.583  41.899  12.262  1.00277.60           O  
+ANISOU  554  O5'  DA B 125    33800  31241  40434   -779  -3774  -6915       O  
+ATOM    555  C5'  DA B 125     -51.896  41.301  13.520  1.00278.75           C  
+ANISOU  555  C5'  DA B 125    33715  32385  39813   -118  -4036  -7539       C  
+ATOM    556  C4'  DA B 125     -51.247  42.069  14.657  1.00274.62           C  
+ANISOU  556  C4'  DA B 125    32317  32235  39792      9  -3915  -9127       C  
+ATOM    557  O4'  DA B 125     -50.667  41.138  15.611  1.00271.56           O  
+ANISOU  557  O4'  DA B 125    31673  33247  38260    548  -4106  -9830       O  
+ATOM    558  C3'  DA B 125     -50.111  43.008  14.239  1.00275.42           C  
+ANISOU  558  C3'  DA B 125    32010  31799  40839   -603  -3547  -9824       C  
+ATOM    559  O3'  DA B 125     -50.238  44.243  14.917  1.00278.52           O  
+ANISOU  559  O3'  DA B 125    31743  31717  42364   -697  -3330 -10856       O  
+ATOM    560  C2'  DA B 125     -48.858  42.261  14.687  1.00272.86           C  
+ANISOU  560  C2'  DA B 125    31405  32690  39577   -434  -3605 -10603       C  
+ATOM    561  C1'  DA B 125     -49.372  41.577  15.939  1.00270.94           C  
+ANISOU  561  C1'  DA B 125    30957  33568  38421    341  -3910 -11026       C  
+ATOM    562  N9   DA B 125     -48.568  40.434  16.361  1.00267.29           N  
+ANISOU  562  N9   DA B 125    30451  34436  36672    765  -4043 -11265       N  
+ATOM    563  C8   DA B 125     -47.655  39.743  15.613  1.00265.88           C  
+ANISOU  563  C8   DA B 125    30603  34496  35925    575  -3968 -10846       C  
+ATOM    564  N7   DA B 125     -47.071  38.764  16.264  1.00262.63           N  
+ANISOU  564  N7   DA B 125    30040  35380  34370   1120  -4069 -11164       N  
+ATOM    565  C5   DA B 125     -47.637  38.820  17.527  1.00261.70           C  
+ANISOU  565  C5   DA B 125    29438  35960  34036   1705  -4236 -11834       C  
+ATOM    566  C6   DA B 125     -47.443  38.050  18.691  1.00258.51           C  
+ANISOU  566  C6   DA B 125    28633  37021  32569   2488  -4378 -12367       C  
+ATOM    567  N6   DA B 125     -46.584  37.030  18.764  1.00255.68           N  
+ANISOU  567  N6   DA B 125    28315  37680  31150   2842  -4348 -12278       N  
+ATOM    568  N1   DA B 125     -48.168  38.370  19.781  1.00258.41           N  
+ANISOU  568  N1   DA B 125    28154  37412  32618   2930  -4526 -12962       N  
+ATOM    569  C2   DA B 125     -49.027  39.393  19.707  1.00261.38           C  
+ANISOU  569  C2   DA B 125    28493  36744  34074   2606  -4519 -13035       C  
+ATOM    570  N3   DA B 125     -49.296  40.188  18.673  1.00264.60           N  
+ANISOU  570  N3   DA B 125    29258  35716  35564   1906  -4363 -12537       N  
+ATOM    571  C4   DA B 125     -48.560  39.845  17.604  1.00264.54           C  
+ANISOU  571  C4   DA B 125    29687  35384  35442   1480  -4232 -11936       C  
+TER     572       DA B 125                                                      
+ATOM    573  P    DG C 209     -45.146  47.311  18.594  1.00307.65           P  
+ANISOU  573  P    DG C 209    52427  41516  22949  -8248   5612   9565       P  
+ATOM    574  OP1  DG C 209     -44.236  46.512  19.447  1.00305.17           O  
+ANISOU  574  OP1  DG C 209    51439  40418  24093  -8499   4880   8495       O  
+ATOM    575  OP2  DG C 209     -45.909  48.442  19.169  1.00304.59           O  
+ANISOU  575  OP2  DG C 209    51410  42314  22005  -7628   5865  10471       O  
+ATOM    576  O5'  DG C 209     -46.180  46.324  17.877  1.00310.86           O  
+ANISOU  576  O5'  DG C 209    53667  42748  21696  -8981   4304  10662       O  
+ATOM    577  C5'  DG C 209     -47.575  46.453  18.119  1.00309.63           C  
+ANISOU  577  C5'  DG C 209    52769  44203  20672  -8618   3267  11884       C  
+ATOM    578  C4'  DG C 209     -48.096  45.285  18.938  1.00307.64           C  
+ANISOU  578  C4'  DG C 209    51767  44648  20474  -9112   1240  12218       C  
+ATOM    579  O4'  DG C 209     -47.803  44.051  18.252  1.00311.58           O  
+ANISOU  579  O4'  DG C 209    53252  44416  20716 -10012    489  11962       O  
+ATOM    580  C3'  DG C 209     -47.463  45.133  20.308  1.00302.67           C  
+ANISOU  580  C3'  DG C 209    50587  44092  20322  -9629    682  12093       C  
+ATOM    581  O3'  DG C 209     -48.171  45.931  21.253  1.00298.73           O  
+ANISOU  581  O3'  DG C 209    48715  44750  20038  -8732    535  12519       O  
+ATOM    582  C2'  DG C 209     -47.632  43.639  20.595  1.00303.43           C  
+ANISOU  582  C2'  DG C 209    50602  44244  20444 -10467  -1229  12173       C  
+ATOM    583  C1'  DG C 209     -47.648  43.005  19.195  1.00309.40           C  
+ANISOU  583  C1'  DG C 209    52602  44249  20709 -10793  -1126  11980       C  
+ATOM    584  N9   DG C 209     -46.436  42.250  18.848  1.00311.77           N  
+ANISOU  584  N9   DG C 209    53775  42950  21735 -11313  -1008  10810       N  
+ATOM    585  C8   DG C 209     -45.735  42.324  17.671  1.00316.41           C  
+ANISOU  585  C8   DG C 209    55384  42278  22560 -11131    267   9902       C  
+ATOM    586  N7   DG C 209     -44.699  41.532  17.630  1.00318.17           N  
+ANISOU  586  N7   DG C 209    55809  41173  23909 -11314     77   8605       N  
+ATOM    587  C5   DG C 209     -44.711  40.888  18.857  1.00314.29           C  
+ANISOU  587  C5   DG C 209    54421  41008  23988 -11662  -1449   8661       C  
+ATOM    588  C6   DG C 209     -43.829  39.914  19.389  1.00319.99           C  
+ANISOU  588  C6   DG C 209    54936  40715  25932 -11953  -2361   7558       C  
+ATOM    589  O6   DG C 209     -42.828  39.417  18.850  1.00328.94           O  
+ANISOU  589  O6   DG C 209    56634  40444  27904 -11913  -1965   6235       O  
+ATOM    590  N1   DG C 209     -44.198  39.521  20.670  1.00316.36           N  
+ANISOU  590  N1   DG C 209    53503  41051  25650 -12284  -3874   8102       N  
+ATOM    591  C2   DG C 209     -45.286  40.004  21.360  1.00307.26           C  
+ANISOU  591  C2   DG C 209    51610  41560  23576 -12315  -4418   9532       C  
+ATOM    592  N2   DG C 209     -45.484  39.504  22.587  1.00304.97           N  
+ANISOU  592  N2   DG C 209    50399  41898  23576 -12667  -5895   9883       N  
+ATOM    593  N3   DG C 209     -46.122  40.915  20.876  1.00306.37           N  
+ANISOU  593  N3   DG C 209    51646  42457  22304 -11997  -3584  10542       N  
+ATOM    594  C4   DG C 209     -45.777  41.312  19.629  1.00310.34           C  
+ANISOU  594  C4   DG C 209    53144  42124  22649 -11691  -2133  10037       C  
+ATOM    595  P    DG C 210     -47.375  46.745  22.388  1.00309.61           P  
+ANISOU  595  P    DG C 210    49395  46022  22222  -8460   1194  12110       P  
+ATOM    596  OP1  DG C 210     -48.276  47.791  22.921  1.00307.48           O  
+ANISOU  596  OP1  DG C 210    48233  46989  21606  -7462   1357  12752       O  
+ATOM    597  OP2  DG C 210     -46.055  47.122  21.834  1.00313.44           O  
+ANISOU  597  OP2  DG C 210    50342  44635  24115  -8126   2796  10600       O  
+ATOM    598  O5'  DG C 210     -47.134  45.657  23.532  1.00309.10           O  
+ANISOU  598  O5'  DG C 210    48499  46066  22879  -9023   -467  11882       O  
+ATOM    599  C5'  DG C 210     -48.229  44.898  24.035  1.00306.28           C  
+ANISOU  599  C5'  DG C 210    47494  47009  21869  -9319  -2199  12790       C  
+ATOM    600  C4'  DG C 210     -47.731  43.698  24.818  1.00308.31           C  
+ANISOU  600  C4'  DG C 210    47581  47066  22497 -10312  -3727  12676       C  
+ATOM    601  O4'  DG C 210     -47.199  42.706  23.901  1.00313.51           O  
+ANISOU  601  O4'  DG C 210    49350  46432  23339 -10986  -3972  12060       O  
+ATOM    602  C3'  DG C 210     -46.596  44.001  25.783  1.00311.95           C  
+ANISOU  602  C3'  DG C 210    47227  46570  24728  -9828  -3250  11392       C  
+ATOM    603  O3'  DG C 210     -47.117  44.377  27.047  1.00305.41           O  
+ANISOU  603  O3'  DG C 210    45171  47123  23748  -9523  -3923  12053       O  
+ATOM    604  C2'  DG C 210     -45.864  42.667  25.846  1.00323.82           C  
+ANISOU  604  C2'  DG C 210    49027  46920  27088 -10584  -4312  10565       C  
+ATOM    605  C1'  DG C 210     -45.975  42.196  24.398  1.00324.84           C  
+ANISOU  605  C1'  DG C 210    50534  46434  26457 -11022  -4058  10622       C  
+ATOM    606  N9   DG C 210     -44.893  42.678  23.545  1.00333.29           N  
+ANISOU  606  N9   DG C 210    52249  45866  28518 -10528  -2288   9256       N  
+ATOM    607  C8   DG C 210     -44.910  43.783  22.727  1.00329.68           C  
+ANISOU  607  C8   DG C 210    52239  45272  27753  -9910   -552   9249       C  
+ATOM    608  N7   DG C 210     -43.792  43.969  22.082  1.00337.79           N  
+ANISOU  608  N7   DG C 210    53762  44732  29850  -9635    793   7906       N  
+ATOM    609  C5   DG C 210     -42.982  42.919  22.499  1.00351.15           C  
+ANISOU  609  C5   DG C 210    55316  45472  32634 -10040   -112   6911       C  
+ATOM    610  C6   DG C 210     -41.653  42.594  22.139  1.00369.43           C  
+ANISOU  610  C6   DG C 210    57941  46088  36339  -9949    624   5279       C  
+ATOM    611  O6   DG C 210     -40.904  43.189  21.355  1.00372.62           O  
+ANISOU  611  O6   DG C 210    58783  45503  37291  -9528   2306   4401       O  
+ATOM    612  N1   DG C 210     -41.207  41.447  22.794  1.00382.88           N  
+ANISOU  612  N1   DG C 210    59380  47304  38793 -10416   -836   4688       N  
+ATOM    613  C2   DG C 210     -41.952  40.709  23.682  1.00379.39           C  
+ANISOU  613  C2   DG C 210    58459  47868  37822 -10969  -2763   5615       C  
+ATOM    614  N2   DG C 210     -41.354  39.633  24.213  1.00393.87           N  
+ANISOU  614  N2   DG C 210    60163  48962  40528 -11382  -4016   4853       N  
+ATOM    615  N3   DG C 210     -43.197  41.004  24.027  1.00360.77           N  
+ANISOU  615  N3   DG C 210    55764  47164  34149 -11110  -3434   7188       N  
+ATOM    616  C4   DG C 210     -43.646  42.117  23.398  1.00347.54           C  
+ANISOU  616  C4   DG C 210    54320  45999  31732 -10595  -2029   7728       C  
+ATOM    617  P    DC C 211     -46.445  45.586  27.864  1.00319.78           P  
+ANISOU  617  P    DC C 211    46095  48602  26804  -8441  -2712  11204       P  
+ATOM    618  OP1  DC C 211     -47.408  46.709  27.885  1.00309.71           O  
+ANISOU  618  OP1  DC C 211    44533  48781  24363  -7751  -2170  12250       O  
+ATOM    619  OP2  DC C 211     -45.080  45.786  27.326  1.00332.17           O  
+ANISOU  619  OP2  DC C 211    48172  48108  29930  -8173  -1327   9574       O  
+ATOM    620  O5'  DC C 211     -46.297  45.009  29.347  1.00322.42           O  
+ANISOU  620  O5'  DC C 211    45266  49414  27827  -8630  -4122  11117       O  
+ATOM    621  C5'  DC C 211     -45.005  44.801  29.900  1.00340.25           C  
+ANISOU  621  C5'  DC C 211    47192  50147  31940  -8488  -3896   9604       C  
+ATOM    622  C4'  DC C 211     -44.737  43.322  30.117  1.00351.01           C  
+ANISOU  622  C4'  DC C 211    48716  51031  33621  -9465  -5463   9389       C  
+ATOM    623  O4'  DC C 211     -44.623  42.657  28.835  1.00354.78           O  
+ANISOU  623  O4'  DC C 211    50449  50623  33730 -10051  -5354   9222       O  
+ATOM    624  C3'  DC C 211     -43.456  43.016  30.878  1.00380.79           C  
+ANISOU  624  C3'  DC C 211    51999  53391  39292  -9323  -5504   7873       C  
+ATOM    625  O3'  DC C 211     -43.771  42.855  32.263  1.00373.09           O  
+ANISOU  625  O3'  DC C 211    49896  53482  38378  -9327  -6723   8339       O  
+ATOM    626  C2'  DC C 211     -42.969  41.709  30.251  1.00397.16           C  
+ANISOU  626  C2'  DC C 211    54958  54286  41657 -10177  -6298   7300       C  
+ATOM    627  C1'  DC C 211     -43.511  41.787  28.822  1.00382.06           C  
+ANISOU  627  C1'  DC C 211    54194  52447  38524 -10388  -5657   7885       C  
+ATOM    628  N1   DC C 211     -42.529  42.294  27.811  1.00393.07           N  
+ANISOU  628  N1   DC C 211    56310  52246  40790  -9923  -3846   6606       N  
+ATOM    629  C2   DC C 211     -41.496  41.463  27.360  1.00412.71           C  
+ANISOU  629  C2   DC C 211    59392  53116  44304 -10225  -3880   5303       C  
+ATOM    630  O2   DC C 211     -41.396  40.318  27.819  1.00423.36           O  
+ANISOU  630  O2   DC C 211    60708  54280  45871 -10855  -5461   5193       O  
+ATOM    631  N3   DC C 211     -40.626  41.942  26.435  1.00417.12           N  
+ANISOU  631  N3   DC C 211    60540  52373  45575  -9807  -2192   4192       N  
+ATOM    632  C4   DC C 211     -40.768  43.184  25.964  1.00404.63           C  
+ANISOU  632  C4   DC C 211    59020  50998  43721  -9180   -567   4395       C  
+ATOM    633  N4   DC C 211     -39.889  43.613  25.053  1.00407.69           N  
+ANISOU  633  N4   DC C 211    59984  50115  44804  -8851   1061   3332       N  
+ATOM    634  C5   DC C 211     -41.818  44.040  26.405  1.00386.54           C  
+ANISOU  634  C5   DC C 211    56206  50256  40405  -8851   -565   5698       C  
+ATOM    635  C6   DC C 211     -42.668  43.558  27.316  1.00380.72           C  
+ANISOU  635  C6   DC C 211    54840  50862  38952  -9211  -2203   6747       C  
+ATOM    636  P    DT C 212     -42.630  42.517  33.343  1.00395.05           P  
+ANISOU  636  P    DT C 212    51951  55165  42984  -9178  -7107   6998       P  
+ATOM    637  OP1  DT C 212     -42.356  41.064  33.245  1.00400.19           O  
+ANISOU  637  OP1  DT C 212    53102  55111  43839 -10154  -8537   6751       O  
+ATOM    638  OP2  DT C 212     -43.064  43.087  34.638  1.00379.99           O  
+ANISOU  638  OP2  DT C 212    48814  54594  40972  -8669  -7533   7551       O  
+ATOM    639  O5'  DT C 212     -41.365  43.369  32.853  1.00424.24           O  
+ANISOU  639  O5'  DT C 212    55881  57076  48234  -8388  -5131   5359       O  
+ATOM    640  C5'  DT C 212     -40.178  43.415  33.647  1.00447.45           C  
+ANISOU  640  C5'  DT C 212    58198  58808  53006  -8001  -4908   3916       C  
+ATOM    641  C4'  DT C 212     -39.467  42.074  33.625  1.00462.03           C  
+ANISOU  641  C4'  DT C 212    60418  59494  55638  -8726  -5969   3075       C  
+ATOM    642  O4'  DT C 212     -39.625  41.473  32.317  1.00456.74           O  
+ANISOU  642  O4'  DT C 212    60947  58371  54222  -9304  -5898   3229       O  
+ATOM    643  C3'  DT C 212     -37.971  42.121  33.934  1.00475.92           C  
+ANISOU  643  C3'  DT C 212    61899  59481  59447  -8310  -5264   1208       C  
+ATOM    644  O3'  DT C 212     -37.752  41.570  35.245  1.00479.12           O  
+ANISOU  644  O3'  DT C 212    61459  60029  60557  -8424  -6629    991       O  
+ATOM    645  C2'  DT C 212     -37.315  41.274  32.835  1.00476.06           C  
+ANISOU  645  C2'  DT C 212    62979  58110  59794  -8795  -5124    337       C  
+ATOM    646  C1'  DT C 212     -38.376  41.192  31.736  1.00467.68           C  
+ANISOU  646  C1'  DT C 212    62838  57916  56942  -9228  -5114   1626       C  
+ATOM    647  N1   DT C 212     -38.159  42.129  30.576  1.00458.82           N  
+ANISOU  647  N1   DT C 212    62333  56278  55720  -8755  -3150   1322       N  
+ATOM    648  C2   DT C 212     -37.235  41.801  29.612  1.00457.21           C  
+ANISOU  648  C2   DT C 212    62902  54594  56224  -8818  -2331    126       C  
+ATOM    649  O2   DT C 212     -36.559  40.789  29.651  1.00460.44           O  
+ANISOU  649  O2   DT C 212    63525  54046  57376  -9178  -3126   -776       O  
+ATOM    650  N3   DT C 212     -37.123  42.712  28.593  1.00448.10           N  
+ANISOU  650  N3   DT C 212    62268  53133  54857  -8416   -547      8       N  
+ATOM    651  C4   DT C 212     -37.832  43.891  28.440  1.00439.98           C  
+ANISOU  651  C4   DT C 212    61126  53039  53009  -7962    426    940       C  
+ATOM    652  O4   DT C 212     -37.656  44.644  27.485  1.00431.36           O  
+ANISOU  652  O4   DT C 212    60586  51529  51781  -7653   1990    768       O  
+ATOM    653  C5   DT C 212     -38.791  44.171  29.481  1.00439.77           C  
+ANISOU  653  C5   DT C 212    60290  54539  52263  -7857   -548   2126       C  
+ATOM    654  C7   DT C 212     -39.621  45.420  29.426  1.00426.96           C  
+ANISOU  654  C7   DT C 212    58486  54046  49694  -7286    309   3150       C  
+ATOM    655  C6   DT C 212     -38.911  43.285  30.483  1.00449.07           C  
+ANISOU  655  C6   DT C 212    60903  56107  53618  -8262  -2245   2272       C  
+ATOM    656  P    DG C 213     -36.289  41.127  35.748  1.00466.74           P  
+ANISOU  656  P    DG C 213    59599  56721  61020  -8266  -6653   -846       P  
+ATOM    657  OP1  DG C 213     -35.995  39.782  35.200  1.00466.09           O  
+ANISOU  657  OP1  DG C 213    60347  55786  60959  -9054  -7691  -1251       O  
+ATOM    658  OP2  DG C 213     -36.281  41.320  37.215  1.00456.47           O  
+ANISOU  658  OP2  DG C 213    57151  56013  60274  -7940  -7412   -801       O  
+ATOM    659  O5'  DG C 213     -35.302  42.218  35.120  1.00455.87           O  
+ANISOU  659  O5'  DG C 213    58302  54096  60812  -7476  -4444  -2114       O  
+ATOM    660  C5'  DG C 213     -33.891  42.050  35.225  1.00437.90           C  
+ANISOU  660  C5'  DG C 213    55874  50134  60373  -7230  -3916  -3896       C  
+ATOM    661  C4'  DG C 213     -33.377  41.157  34.110  1.00433.19           C  
+ANISOU  661  C4'  DG C 213    56297  48431  59865  -7722  -3866  -4617       C  
+ATOM    662  O4'  DG C 213     -34.108  41.442  32.896  1.00441.57           O  
+ANISOU  662  O4'  DG C 213    58236  50010  59528  -7903  -3119  -3709       O  
+ATOM    663  C3'  DG C 213     -31.924  41.366  33.734  1.00409.07           C  
+ANISOU  663  C3'  DG C 213    53242  43675  58512  -7302  -2536  -6457       C  
+ATOM    664  O3'  DG C 213     -31.441  40.214  33.057  1.00404.91           O  
+ANISOU  664  O3'  DG C 213    53494  42225  58130  -7784  -3123  -7195       O  
+ATOM    665  C2'  DG C 213     -32.020  42.562  32.796  1.00406.98           C  
+ANISOU  665  C2'  DG C 213    53296  43464  57876  -6885   -575  -6244       C  
+ATOM    666  C1'  DG C 213     -33.340  42.293  32.064  1.00427.27           C  
+ANISOU  666  C1'  DG C 213    56675  47238  58428  -7399  -1127  -4631       C  
+ATOM    667  N9   DG C 213     -34.121  43.499  31.796  1.00433.09           N  
+ANISOU  667  N9   DG C 213    57384  48949  58222  -7012    -64  -3575       N  
+ATOM    668  C8   DG C 213     -34.795  44.270  32.716  1.00442.21           C  
+ANISOU  668  C8   DG C 213    57752  51254  59015  -6612   -267  -2700       C  
+ATOM    669  N7   DG C 213     -35.414  45.289  32.190  1.00441.31           N  
+ANISOU  669  N7   DG C 213    57864  51803  58012  -6266    807  -1896       N  
+ATOM    670  C5   DG C 213     -35.139  45.191  30.833  1.00432.62           C  
+ANISOU  670  C5   DG C 213    57765  49948  56664  -6493   1810  -2217       C  
+ATOM    671  C6   DG C 213     -35.544  46.022  29.760  1.00426.02           C  
+ANISOU  671  C6   DG C 213    57613  49318  54937  -6308   3171  -1659       C  
+ATOM    672  O6   DG C 213     -36.249  47.040  29.800  1.00423.46           O  
+ANISOU  672  O6   DG C 213    57157  49879  53861  -5878   3742   -761       O  
+ATOM    673  N1   DG C 213     -35.045  45.568  28.545  1.00419.36           N  
+ANISOU  673  N1   DG C 213    57708  47529  54100  -6639   3852  -2267       N  
+ATOM    674  C2   DG C 213     -34.260  44.452  28.379  1.00417.04           C  
+ANISOU  674  C2   DG C 213    57664  46234  54559  -7042   3271  -3316       C  
+ATOM    675  N2   DG C 213     -33.870  44.185  27.127  1.00409.69           N  
+ANISOU  675  N2   DG C 213    57662  44548  53453  -7238   4101  -3810       N  
+ATOM    676  N3   DG C 213     -33.867  43.666  29.377  1.00419.78           N  
+ANISOU  676  N3   DG C 213    57400  46330  55769  -7199   1960  -3878       N  
+ATOM    677  C4   DG C 213     -34.348  44.093  30.572  1.00428.39           C  
+ANISOU  677  C4   DG C 213    57572  48327  56869  -6935   1299  -3253       C  
+ATOM    678  P    DC C 214     -29.869  40.027  32.776  1.00427.65           P  
+ANISOU  678  P    DC C 214    56341  43349  62798  -7458  -2236  -9242       P  
+ATOM    679  OP1  DC C 214     -29.670  38.616  32.381  1.00428.19           O  
+ANISOU  679  OP1  DC C 214    57158  42818  62716  -8006  -3548  -9695       O  
+ATOM    680  OP2  DC C 214     -29.119  40.564  33.933  1.00412.54           O  
+ANISOU  680  OP2  DC C 214    53296  41021  62431  -6914  -2007 -10110       O  
+ATOM    681  O5'  DC C 214     -29.594  40.955  31.497  1.00418.71           O  
+ANISOU  681  O5'  DC C 214    55714  41849  61529  -7138    -60  -9497       O  
+ATOM    682  C5'  DC C 214     -30.304  40.711  30.280  1.00428.69           C  
+ANISOU  682  C5'  DC C 214    58064  43528  61292  -7528    110  -8658       C  
+ATOM    683  C4'  DC C 214     -29.937  41.722  29.199  1.00419.53           C  
+ANISOU  683  C4'  DC C 214    57248  41978  60176  -7156   2289  -8978       C  
+ATOM    684  O4'  DC C 214     -30.893  42.811  29.187  1.00431.88           O  
+ANISOU  684  O4'  DC C 214    58720  44640  60734  -6970   2955  -7623       O  
+ATOM    685  C3'  DC C 214     -28.551  42.364  29.334  1.00395.68           C  
+ANISOU  685  C3'  DC C 214    53580  37769  58991  -6600   3766 -10584       C  
+ATOM    686  O3'  DC C 214     -27.808  42.163  28.135  1.00386.61           O  
+ANISOU  686  O3'  DC C 214    53101  35740  58052  -6611   4880 -11537       O  
+ATOM    687  C2'  DC C 214     -28.851  43.851  29.572  1.00398.75           C  
+ANISOU  687  C2'  DC C 214    53463  38671  59371  -6137   5061  -9951       C  
+ATOM    688  C1'  DC C 214     -30.213  44.010  28.917  1.00417.89           C  
+ANISOU  688  C1'  DC C 214    56652  42303  59824  -6420   4889  -8261       C  
+ATOM    689  N1   DC C 214     -31.017  45.137  29.470  1.00427.97           N  
+ANISOU  689  N1   DC C 214    57451  44597  60562  -6062   5199  -7130       N  
+ATOM    690  C2   DC C 214     -31.534  46.110  28.608  1.00428.53           C  
+ANISOU  690  C2   DC C 214    58040  45082  59699  -5890   6520  -6347       C  
+ATOM    691  O2   DC C 214     -31.307  46.026  27.396  1.00423.03           O  
+ANISOU  691  O2   DC C 214    58179  43910  58643  -6070   7458  -6584       O  
+ATOM    692  N3   DC C 214     -32.269  47.125  29.132  1.00435.90           N  
+ANISOU  692  N3   DC C 214    58558  46938  60126  -5493   6713  -5366       N  
+ATOM    693  C4   DC C 214     -32.486  47.180  30.447  1.00443.81           C  
+ANISOU  693  C4   DC C 214    58641  48485  61500  -5261   5683  -5165       C  
+ATOM    694  N4   DC C 214     -33.214  48.198  30.918  1.00449.09           N  
+ANISOU  694  N4   DC C 214    58929  50098  61606  -4788   5893  -4236       N  
+ATOM    695  C5   DC C 214     -31.970  46.193  31.336  1.00444.50           C  
+ANISOU  695  C5   DC C 214    58183  48187  62521  -5469   4360  -5917       C  
+ATOM    696  C6   DC C 214     -31.245  45.203  30.810  1.00435.92           C  
+ANISOU  696  C6   DC C 214    57541  46135  61953  -5870   4156  -6883       C  
+TER     697       DC C 214                                                      
+ATOM    698  O5'  DT D 201     -51.283  -2.174   0.568  1.00479.63           O  
+ANISOU  698  O5'  DT D 201    58138  34248  89851   6106 -35078  -7300       O  
+ATOM    699  C5'  DT D 201     -50.677  -1.297  -0.380  1.00468.04           C  
+ANISOU  699  C5'  DT D 201    56401  33878  87554   6462 -34855  -9036       C  
+ATOM    700  C4'  DT D 201     -51.535  -0.063  -0.622  1.00453.11           C  
+ANISOU  700  C4'  DT D 201    55433  32874  83854   6346 -34009  -8490       C  
+ATOM    701  O4'  DT D 201     -52.892  -0.456  -0.979  1.00456.97           O  
+ANISOU  701  O4'  DT D 201    55868  32774  84984   5707 -34237  -7321       O  
+ATOM    702  C3'  DT D 201     -51.687   0.875   0.579  1.00444.07           C  
+ANISOU  702  C3'  DT D 201    55622  32356  80747   6629 -32788  -7058       C  
+ATOM    703  O3'  DT D 201     -51.862   2.226   0.133  1.00428.68           O  
+ANISOU  703  O3'  DT D 201    54383  31574  76923   6869 -31912  -7448       O  
+ATOM    704  C2'  DT D 201     -52.982   0.357   1.186  1.00451.04           C  
+ANISOU  704  C2'  DT D 201    56716  32770  81886   6210 -32579  -4728       C  
+ATOM    705  C1'  DT D 201     -53.783   0.181  -0.092  1.00450.99           C  
+ANISOU  705  C1'  DT D 201    56208  32437  82712   5675 -33211  -5291       C  
+ATOM    706  N1   DT D 201     -55.014  -0.645   0.051  1.00461.00           N  
+ANISOU  706  N1   DT D 201    57246  32997  84917   5084 -33534  -3592       N  
+ATOM    707  C2   DT D 201     -55.775  -0.909  -1.067  1.00462.56           C  
+ANISOU  707  C2   DT D 201    56913  32787  86053   4544 -34194  -3979       C  
+ATOM    708  O2   DT D 201     -55.491  -0.508  -2.184  1.00457.12           O  
+ANISOU  708  O2   DT D 201    55857  32389  85438   4588 -34494  -5626       O  
+ATOM    709  N3   DT D 201     -56.887  -1.667  -0.832  1.00472.46           N  
+ANISOU  709  N3   DT D 201    57984  33448  88081   3996 -34470  -2318       N  
+ATOM    710  C4   DT D 201     -57.312  -2.177   0.382  1.00480.84           C  
+ANISOU  710  C4   DT D 201    59311  34404  88983   3959 -34146   -399       C  
+ATOM    711  O4   DT D 201     -58.328  -2.855   0.483  1.00489.63           O  
+ANISOU  711  O4   DT D 201    60203  35066  90768   3427 -34465    931       O  
+ATOM    712  C5   DT D 201     -56.472  -1.861   1.517  1.00478.67           C  
+ANISOU  712  C5   DT D 201    59556  34633  87685   4573 -33433   -108       C  
+ATOM    713  C7   DT D 201     -56.831  -2.359   2.889  1.00486.62           C  
+ANISOU  713  C7   DT D 201    60840  35647  88408   4596 -33044   1837       C  
+ATOM    714  C6   DT D 201     -55.378  -1.114   1.299  1.00469.02           C  
+ANISOU  714  C6   DT D 201    58533  33899  85773   5093 -33165  -1664       C  
+ATOM    715  P    DC D 202     -50.695   3.047  -0.613  1.00429.44           P  
+ANISOU  715  P    DC D 202    54281  32766  76122   7413 -31872  -9682       P  
+ATOM    716  OP1  DC D 202     -49.529   2.178  -0.888  1.00438.77           O  
+ANISOU  716  OP1  DC D 202    54187  33764  78760   7726 -32684 -11009       O  
+ATOM    717  OP2  DC D 202     -50.488   4.278   0.179  1.00418.79           O  
+ANISOU  717  OP2  DC D 202    54178  32362  72579   7872 -30579  -9157       O  
+ATOM    718  O5'  DC D 202     -51.387   3.501  -1.987  1.00423.37           O  
+ANISOU  718  O5'  DC D 202    53224  32583  75054   7366 -31879 -10229       O  
+ATOM    719  C5'  DC D 202     -52.010   2.528  -2.828  1.00433.12           C  
+ANISOU  719  C5'  DC D 202    53452  33057  78058   7018 -32607 -10144       C  
+ATOM    720  C4'  DC D 202     -53.255   3.080  -3.515  1.00427.92           C  
+ANISOU  720  C4'  DC D 202    53272  32559  76760   6686 -32376  -9539       C  
+ATOM    721  O4'  DC D 202     -54.456   2.595  -2.858  1.00435.79           O  
+ANISOU  721  O4'  DC D 202    54724  32492  78365   5821 -32699  -7782       O  
+ATOM    722  C3'  DC D 202     -53.388   4.589  -3.542  1.00416.61           C  
+ANISOU  722  C3'  DC D 202    53066  32287  72942   7027 -31359  -9603       C  
+ATOM    723  O3'  DC D 202     -54.069   4.974  -4.751  1.00413.67           O  
+ANISOU  723  O3'  DC D 202    52664  32235  72274   7162 -30982  -9777       O  
+ATOM    724  C2'  DC D 202     -54.204   4.878  -2.271  1.00418.20           C  
+ANISOU  724  C2'  DC D 202    54456  32182  72260   6740 -30584  -7504       C  
+ATOM    725  C1'  DC D 202     -55.117   3.653  -2.176  1.00429.91           C  
+ANISOU  725  C1'  DC D 202    55236  32564  75548   6069 -31332  -6171       C  
+ATOM    726  N1   DC D 202     -55.384   3.177  -0.784  1.00436.57           N  
+ANISOU  726  N1   DC D 202    56195  33363  76319   6092 -30783  -4058       N  
+ATOM    727  C2   DC D 202     -56.430   2.274  -0.559  1.00446.46           C  
+ANISOU  727  C2   DC D 202    56998  34038  78600   5546 -31167  -2431       C  
+ATOM    728  O2   DC D 202     -57.135   1.920  -1.512  1.00449.38           O  
+ANISOU  728  O2   DC D 202    56912  33898  79932   5044 -31918  -2672       O  
+ATOM    729  N3   DC D 202     -56.645   1.814   0.699  1.00452.48           N  
+ANISOU  729  N3   DC D 202    57822  34846  79253   5567 -30734   -678       N  
+ATOM    730  C4   DC D 202     -55.863   2.217   1.700  1.00448.38           C  
+ANISOU  730  C4   DC D 202    57743  34878  77743   6099 -29957   -462       C  
+ATOM    731  N4   DC D 202     -56.114   1.735   2.922  1.00453.18           N  
+ANISOU  731  N4   DC D 202    58378  35514  78295   6090 -29591   1223       N  
+ATOM    732  C5   DC D 202     -54.788   3.135   1.491  1.00438.25           C  
+ANISOU  732  C5   DC D 202    56892  34155  75467   6645 -29556  -2020       C  
+ATOM    733  C6   DC D 202     -54.582   3.578   0.244  1.00433.10           C  
+ANISOU  733  C6   DC D 202    56217  33479  74863   6621 -29996  -3817       C  
+ATOM    734  P    DT D 203     -55.240   6.072  -4.744  1.00394.04           P  
+ANISOU  734  P    DT D 203    51519  30106  68092   6816 -30650  -8918       P  
+ATOM    735  OP1  DT D 203     -54.683   7.322  -4.183  1.00384.18           O  
+ANISOU  735  OP1  DT D 203    51445  29901  64624   7406 -29668  -9203       O  
+ATOM    736  OP2  DT D 203     -56.462   5.442  -4.189  1.00402.42           O  
+ANISOU  736  OP2  DT D 203    52587  30377  69938   6156 -30832  -6812       O  
+ATOM    737  O5'  DT D 203     -55.546   6.327  -6.293  1.00391.07           O  
+ANISOU  737  O5'  DT D 203    50962  30303  67325   6706 -29609  -9777       O  
+ATOM    738  C5'  DT D 203     -55.847   7.643  -6.750  1.00382.50           C  
+ANISOU  738  C5'  DT D 203    50907  30496  63930   6775 -28511 -10022       C  
+ATOM    739  C4'  DT D 203     -57.326   7.966  -6.595  1.00384.72           C  
+ANISOU  739  C4'  DT D 203    51574  30960  63642   6353 -29432  -8417       C  
+ATOM    740  O4'  DT D 203     -57.893   7.215  -5.486  1.00394.79           O  
+ANISOU  740  O4'  DT D 203    52415  31696  65892   6390 -29768  -6107       O  
+ATOM    741  C3'  DT D 203     -57.622   9.430  -6.297  1.00379.13           C  
+ANISOU  741  C3'  DT D 203    51964  32001  60088   7152 -28287  -7421       C  
+ATOM    742  O3'  DT D 203     -58.859   9.803  -6.878  1.00381.35           O  
+ANISOU  742  O3'  DT D 203    52064  33643  59188   6742 -27946  -6158       O  
+ATOM    743  C2'  DT D 203     -57.686   9.448  -4.774  1.00381.14           C  
+ANISOU  743  C2'  DT D 203    52478  32418  59920   7628 -27285  -5256       C  
+ATOM    744  C1'  DT D 203     -58.342   8.105  -4.480  1.00393.41           C  
+ANISOU  744  C1'  DT D 203    52943  33028  63507   6901 -28126  -4005       C  
+ATOM    745  N1   DT D 203     -57.994   7.547  -3.120  1.00396.37           N  
+ANISOU  745  N1   DT D 203    53202  32976  64424   6951 -27741  -2897       N  
+ATOM    746  C2   DT D 203     -58.753   6.527  -2.586  1.00406.59           C  
+ANISOU  746  C2   DT D 203    53774  33796  66916   6414 -28088  -1263       C  
+ATOM    747  O2   DT D 203     -59.703   6.027  -3.162  1.00413.61           O  
+ANISOU  747  O2   DT D 203    54073  34550  68532   5874 -28720   -640       O  
+ATOM    748  N3   DT D 203     -58.351   6.101  -1.347  1.00407.42           N  
+ANISOU  748  N3   DT D 203    53868  33646  67285   6511 -27708   -421       N  
+ATOM    749  C4   DT D 203     -57.293   6.584  -0.597  1.00398.00           C  
+ANISOU  749  C4   DT D 203    53201  32713  65309   7048 -27025   -939       C  
+ATOM    750  O4   DT D 203     -57.014   6.133   0.510  1.00399.50           O  
+ANISOU  750  O4   DT D 203    53283  32730  65778   7082 -26765    -54       O  
+ATOM    751  C5   DT D 203     -56.544   7.656  -1.208  1.00388.22           C  
+ANISOU  751  C5   DT D 203    52668  31996  62841   7563 -26680  -2629       C  
+ATOM    752  C7   DT D 203     -55.374   8.265  -0.492  1.00376.91           C  
+ANISOU  752  C7   DT D 203    51826  30948  60434   8132 -25974  -3348       C  
+ATOM    753  C6   DT D 203     -56.929   8.083  -2.422  1.00388.26           C  
+ANISOU  753  C6   DT D 203    52799  32171  62551   7511 -27044  -3552       C  
+ATOM    754  P    DG D 204     -59.216  11.356  -7.081  1.00340.78           P  
+ANISOU  754  P    DG D 204    48057  30411  51014   7357 -26521  -5642       P  
+ATOM    755  OP1  DG D 204     -59.746  11.512  -8.456  1.00338.94           O  
+ANISOU  755  OP1  DG D 204    47588  30999  50196   6378 -26548  -6697       O  
+ATOM    756  OP2  DG D 204     -58.034  12.148  -6.670  1.00330.56           O  
+ANISOU  756  OP2  DG D 204    47902  29050  48647   8175 -25822  -6956       O  
+ATOM    757  O5'  DG D 204     -60.388  11.613  -6.016  1.00342.99           O  
+ANISOU  757  O5'  DG D 204    48241  31746  50333   7692 -25222  -2303       O  
+ATOM    758  C5'  DG D 204     -61.580  10.825  -6.073  1.00353.89           C  
+ANISOU  758  C5'  DG D 204    48545  33284  52634   7022 -25668   -658       C  
+ATOM    759  C4'  DG D 204     -62.405  10.959  -4.800  1.00352.86           C  
+ANISOU  759  C4'  DG D 204    48260  34038  51774   7269 -24264   2027       C  
+ATOM    760  O4'  DG D 204     -61.790  10.204  -3.722  1.00355.11           O  
+ANISOU  760  O4'  DG D 204    48385  33170  53373   7249 -24396   2223       O  
+ATOM    761  C3'  DG D 204     -62.589  12.387  -4.274  1.00336.10           C  
+ANISOU  761  C3'  DG D 204    46947  33580  47175   8043 -22251   3080       C  
+ATOM    762  O3'  DG D 204     -63.952  12.584  -3.915  1.00335.79           O  
+ANISOU  762  O3'  DG D 204    46334  34937  46313   8026 -21252   5329       O  
+ATOM    763  C2'  DG D 204     -61.675  12.427  -3.050  1.00327.04           C  
+ANISOU  763  C2'  DG D 204    46174  31938  46148   8410 -21536   3127       C  
+ATOM    764  C1'  DG D 204     -61.769  10.994  -2.559  1.00340.92           C  
+ANISOU  764  C1'  DG D 204    47058  32414  50063   7824 -22642   3549       C  
+ATOM    765  N9   DG D 204     -60.635  10.583  -1.740  1.00337.76           N  
+ANISOU  765  N9   DG D 204    46849  30952  50532   7946 -22816   2832       N  
+ATOM    766  C8   DG D 204     -59.308  10.862  -1.964  1.00333.32           C  
+ANISOU  766  C8   DG D 204    46932  29692  50021   8277 -23171    795       C  
+ATOM    767  N7   DG D 204     -58.514  10.362  -1.060  1.00332.73           N  
+ANISOU  767  N7   DG D 204    46782  28884  50757   8310 -23259    653       N  
+ATOM    768  C5   DG D 204     -59.368   9.702  -0.184  1.00338.82           C  
+ANISOU  768  C5   DG D 204    46895  29808  52034   7978 -22959   2701       C  
+ATOM    769  C6   DG D 204     -59.080   8.969   0.992  1.00342.74           C  
+ANISOU  769  C6   DG D 204    47090  29778  53359   7864 -22930   3490       C  
+ATOM    770  O6   DG D 204     -57.976   8.750   1.508  1.00341.13           O  
+ANISOU  770  O6   DG D 204    47049  28920  53644   8030 -23160   2624       O  
+ATOM    771  N1   DG D 204     -60.237   8.468   1.583  1.00349.20           N  
+ANISOU  771  N1   DG D 204    47382  30956  54340   7542 -22629   5430       N  
+ATOM    772  C2   DG D 204     -61.510   8.651   1.098  1.00351.89           C  
+ANISOU  772  C2   DG D 204    47441  32126  54137   7357 -22384   6474       C  
+ATOM    773  N2   DG D 204     -62.503   8.092   1.802  1.00358.01           N  
+ANISOU  773  N2   DG D 204    47763  33130  55135   7065 -22169   8127       N  
+ATOM    774  N3   DG D 204     -61.792   9.336  -0.003  1.00348.66           N  
+ANISOU  774  N3   DG D 204    47206  32316  52951   7460 -22390   5872       N  
+ATOM    775  C4   DG D 204     -60.676   9.831  -0.589  1.00342.00           C  
+ANISOU  775  C4   DG D 204    46956  31065  51922   7764 -22688   3984       C  
+ATOM    776  P    DA D 205     -64.520  14.053  -3.586  1.00349.66           P  
+ANISOU  776  P    DA D 205    48520  38666  45670   8725 -19116   6663       P  
+ATOM    777  OP1  DA D 205     -65.555  14.349  -4.601  1.00351.74           O  
+ANISOU  777  OP1  DA D 205    48462  40038  45145   8597 -19240   7085       O  
+ATOM    778  OP2  DA D 205     -63.392  14.993  -3.409  1.00336.11           O  
+ANISOU  778  OP2  DA D 205    47894  36892  42922   9228 -18313   5534       O  
+ATOM    779  O5'  DA D 205     -65.222  13.869  -2.159  1.00349.32           O  
+ANISOU  779  O5'  DA D 205    47852  39248  45627   8895 -17889   8780       O  
+ATOM    780  C5'  DA D 205     -64.794  12.819  -1.290  1.00356.16           C  
+ANISOU  780  C5'  DA D 205    48455  38854  48016   8590 -18541   8808       C  
+ATOM    781  C4'  DA D 205     -64.679  13.306   0.142  1.00345.84           C  
+ANISOU  781  C4'  DA D 205    47262  38218  45925   9080 -16864   9958       C  
+ATOM    782  O4'  DA D 205     -63.504  12.707   0.760  1.00346.47           O  
+ANISOU  782  O4'  DA D 205    47576  36959  47109   8919 -17479   9090       O  
+ATOM    783  C3'  DA D 205     -64.496  14.816   0.292  1.00332.30           C  
+ANISOU  783  C3'  DA D 205    45985  37881  42392   9672 -15049  10270       C  
+ATOM    784  O3'  DA D 205     -65.094  15.261   1.506  1.00329.57           O  
+ANISOU  784  O3'  DA D 205    45285  38679  41256  10123 -13320  11929       O  
+ATOM    785  C2'  DA D 205     -62.982  14.938   0.356  1.00325.78           C  
+ANISOU  785  C2'  DA D 205    45909  36018  41854   9649 -15455   8663       C  
+ATOM    786  C1'  DA D 205     -62.658  13.736   1.222  1.00334.31           C  
+ANISOU  786  C1'  DA D 205    46628  35950  44444   9382 -16250   8791       C  
+ATOM    787  N9   DA D 205     -61.268  13.300   1.133  1.00333.40           N  
+ANISOU  787  N9   DA D 205    46979  34408  45288   9268 -17356   7014       N  
+ATOM    788  C8   DA D 205     -60.415  13.463   0.077  1.00331.80           C  
+ANISOU  788  C8   DA D 205    47428  33447  45193   9312 -18355   4916       C  
+ATOM    789  N7   DA D 205     -59.213  12.980   0.290  1.00333.00           N  
+ANISOU  789  N7   DA D 205    47829  32401  46294   9313 -19194   3486       N  
+ATOM    790  C5   DA D 205     -59.283  12.469   1.576  1.00334.96           C  
+ANISOU  790  C5   DA D 205    47571  32642  47057   9208 -18714   4882       C  
+ATOM    791  C6   DA D 205     -58.337  11.817   2.396  1.00338.45           C  
+ANISOU  791  C6   DA D 205    47934  32180  48481   9166 -19169   4467       C  
+ATOM    792  N6   DA D 205     -57.083  11.561   2.013  1.00338.04           N  
+ANISOU  792  N6   DA D 205    48233  31036  49170   9247 -20234   2398       N  
+ATOM    793  N1   DA D 205     -58.734  11.436   3.628  1.00343.32           N  
+ANISOU  793  N1   DA D 205    48096  33107  49242   9087 -18501   6160       N  
+ATOM    794  C2   DA D 205     -59.991  11.692   4.008  1.00344.00           C  
+ANISOU  794  C2   DA D 205    47842  34305  48558   9100 -17444   7967       C  
+ATOM    795  N3   DA D 205     -60.965  12.295   3.330  1.00341.05           N  
+ANISOU  795  N3   DA D 205    47414  34889  47281   9180 -16899   8509       N  
+ATOM    796  C4   DA D 205     -60.542  12.661   2.111  1.00336.70           C  
+ANISOU  796  C4   DA D 205    47296  34033  46603   9196 -17588   6980       C  
+ATOM    797  P    DT D 206     -66.635  15.716   1.544  1.00316.48           P  
+ANISOU  797  P    DT D 206    43221  38573  38453  10695 -12194  13356       P  
+ATOM    798  OP1  DT D 206     -67.296  15.231   0.311  1.00323.81           O  
+ANISOU  798  OP1  DT D 206    43949  39346  39738  10338 -13554  12978       O  
+ATOM    799  OP2  DT D 206     -66.670  17.158   1.868  1.00307.03           O  
+ANISOU  799  OP2  DT D 206    41807  38647  36204  10646 -10250  13904       O  
+ATOM    800  O5'  DT D 206     -67.215  14.926   2.804  1.00323.17           O  
+ANISOU  800  O5'  DT D 206    44196  39001  39594  10926 -12139  13981       O  
+ATOM    801  C5'  DT D 206     -66.605  13.700   3.204  1.00329.77           C  
+ANISOU  801  C5'  DT D 206    44899  38300  42097  10170 -13526  13580       C  
+ATOM    802  C4'  DT D 206     -66.012  13.813   4.603  1.00327.23           C  
+ANISOU  802  C4'  DT D 206    44925  37762  41646  10391 -12737  13874       C  
+ATOM    803  O4'  DT D 206     -64.562  13.745   4.547  1.00321.93           O  
+ANISOU  803  O4'  DT D 206    44305  36406  41610  10166 -13041  12937       O  
+ATOM    804  C3'  DT D 206     -66.350  15.107   5.354  1.00323.11           C  
+ANISOU  804  C3'  DT D 206    44985  38227  39554  11101 -11214  14558       C  
+ATOM    805  O3'  DT D 206     -66.996  14.798   6.591  1.00330.28           O  
+ANISOU  805  O3'  DT D 206    46331  38659  40502  10974 -11323  15171       O  
+ATOM    806  C2'  DT D 206     -64.986  15.781   5.573  1.00313.82           C  
+ANISOU  806  C2'  DT D 206    43749  37174  38312  11046 -10516  14218       C  
+ATOM    807  C1'  DT D 206     -64.041  14.597   5.537  1.00316.69           C  
+ANISOU  807  C1'  DT D 206    43982  36180  40164  10494 -11892  13328       C  
+ATOM    808  N1   DT D 206     -62.643  14.962   5.173  1.00307.77           N  
+ANISOU  808  N1   DT D 206    42954  34752  39233  10304 -11949  12239       N  
+ATOM    809  C2   DT D 206     -61.605  14.497   5.945  1.00308.69           C  
+ANISOU  809  C2   DT D 206    43256  34013  40020  10176 -12361  11764       C  
+ATOM    810  O2   DT D 206     -61.767  13.791   6.924  1.00316.74           O  
+ANISOU  810  O2   DT D 206    44268  34518  41562  10116 -12683  12328       O  
+ATOM    811  N3   DT D 206     -60.361  14.884   5.529  1.00301.01           N  
+ANISOU  811  N3   DT D 206    42641  32666  39063  10073 -12593  10440       N  
+ATOM    812  C4   DT D 206     -60.055  15.677   4.440  1.00294.04           C  
+ANISOU  812  C4   DT D 206    42290  31890  37542  10045 -12723   9311       C  
+ATOM    813  O4   DT D 206     -58.901  15.971   4.148  1.00288.91           O  
+ANISOU  813  O4   DT D 206    42422  30643  36706  10114 -13172   7690       O  
+ATOM    814  C5   DT D 206     -61.190  16.137   3.673  1.00293.68           C  
+ANISOU  814  C5   DT D 206    41994  32715  36876  10048 -12312   9986       C  
+ATOM    815  C7   DT D 206     -60.982  17.007   2.470  1.00287.00           C  
+ANISOU  815  C7   DT D 206    41919  32012  35115  10056 -12442   8726       C  
+ATOM    816  C6   DT D 206     -62.415  15.764   4.074  1.00299.92           C  
+ANISOU  816  C6   DT D 206    42078  34166  37714  10192 -11826  11534       C  
+ATOM    817  P    DG D 207     -67.494  15.971   7.572  1.00303.59           P  
+ANISOU  817  P    DG D 207    44025  35576  35748  11230 -10248  15275       P  
+ATOM    818  OP1  DG D 207     -68.848  15.593   8.038  1.00312.40           O  
+ANISOU  818  OP1  DG D 207    45222  36400  37077  10831 -10891  16120       O  
+ATOM    819  OP2  DG D 207     -67.306  17.268   6.882  1.00294.55           O  
+ANISOU  819  OP2  DG D 207    43409  35149  33356  11566  -9156  14300       O  
+ATOM    820  O5'  DG D 207     -66.476  15.889   8.807  1.00302.27           O  
+ANISOU  820  O5'  DG D 207    44036  34938  35874  11097  -9989  15371       O  
+ATOM    821  C5'  DG D 207     -66.211  14.629   9.421  1.00309.95           C  
+ANISOU  821  C5'  DG D 207    44457  35039  38271  10522 -11015  15830       C  
+ATOM    822  C4'  DG D 207     -64.861  14.631  10.115  1.00306.50           C  
+ANISOU  822  C4'  DG D 207    44072  34299  38086  10549 -10810  15562       C  
+ATOM    823  O4'  DG D 207     -63.821  14.946   9.156  1.00298.20           O  
+ANISOU  823  O4'  DG D 207    42660  33574  37067  10802 -10593  14848       O  
+ATOM    824  C3'  DG D 207     -64.723  15.644  11.255  1.00302.40           C  
+ANISOU  824  C3'  DG D 207    44423  34075  36400  10795  -9748  15693       C  
+ATOM    825  O3'  DG D 207     -64.369  14.976  12.462  1.00308.40           O  
+ANISOU  825  O3'  DG D 207    45093  34151  37935  10281 -10241  16148       O  
+ATOM    826  C2'  DG D 207     -63.614  16.594  10.788  1.00290.98           C  
+ANISOU  826  C2'  DG D 207    42758  33442  34359  11036  -8566  14891       C  
+ATOM    827  C1'  DG D 207     -62.851  15.748   9.778  1.00290.91           C  
+ANISOU  827  C1'  DG D 207    41869  33058  35604  10940  -9620  14748       C  
+ATOM    828  N9   DG D 207     -62.183  16.546   8.753  1.00280.48           N  
+ANISOU  828  N9   DG D 207    39965  32372  34232  10644  -9160  14260       N  
+ATOM    829  C8   DG D 207     -62.773  17.440   7.894  1.00275.24           C  
+ANISOU  829  C8   DG D 207    38843  32588  33149  10250  -8528  14379       C  
+ATOM    830  N7   DG D 207     -61.933  18.021   7.086  1.00266.03           N  
+ANISOU  830  N7   DG D 207    37674  31261  32143   9684  -8980  13700       N  
+ATOM    831  C5   DG D 207     -60.702  17.481   7.429  1.00264.86           C  
+ANISOU  831  C5   DG D 207    37936  30311  32389   9960  -9548  12883       C  
+ATOM    832  C6   DG D 207     -59.415  17.734   6.892  1.00256.27           C  
+ANISOU  832  C6   DG D 207    37525  28670  31176   9826  -9983  11117       C  
+ATOM    833  O6   DG D 207     -59.104  18.508   5.979  1.00247.37           O  
+ANISOU  833  O6   DG D 207    37041  27671  29277   9727  -9872   9920       O  
+ATOM    834  N1   DG D 207     -58.436  16.977   7.523  1.00259.14           N  
+ANISOU  834  N1   DG D 207    38013  28269  32179  10004 -10539  10558       N  
+ATOM    835  C2   DG D 207     -58.666  16.089   8.542  1.00269.32           C  
+ANISOU  835  C2   DG D 207    38984  29226  34118  10174 -10771  11494       C  
+ATOM    836  N2   DG D 207     -57.591  15.453   9.027  1.00271.61           N  
+ANISOU  836  N2   DG D 207    39444  28705  35049  10203 -11473  10748       N  
+ATOM    837  N3   DG D 207     -59.866  15.841   9.060  1.00277.04           N  
+ANISOU  837  N3   DG D 207    39720  30565  34978  10362 -10408  12840       N  
+ATOM    838  C4   DG D 207     -60.833  16.571   8.453  1.00274.09           C  
+ANISOU  838  C4   DG D 207    39118  31084  33940  10382  -9701  13447       C  
+ATOM    839  P    DT D 208     -64.952  15.489  13.869  1.00310.66           P  
+ANISOU  839  P    DT D 208    46015  34351  37672   9830  -9836  16742       P  
+ATOM    840  OP1  DT D 208     -65.978  14.518  14.308  1.00321.58           O  
+ANISOU  840  OP1  DT D 208    46706  35318  40160   8951 -10640  17630       O  
+ATOM    841  OP2  DT D 208     -65.310  16.916  13.709  1.00302.58           O  
+ANISOU  841  OP2  DT D 208    45979  33740  35248   9926  -9018  16166       O  
+ATOM    842  O5'  DT D 208     -63.699  15.407  14.862  1.00309.47           O  
+ANISOU  842  O5'  DT D 208    45968  33947  37668   9821  -9701  16665       O  
+ATOM    843  C5'  DT D 208     -62.691  16.412  14.823  1.00299.06           C  
+ANISOU  843  C5'  DT D 208    45185  33120  35322  10297  -8719  15795       C  
+ATOM    844  C4'  DT D 208     -61.375  15.848  14.316  1.00297.10           C  
+ANISOU  844  C4'  DT D 208    44089  32916  35878  10617  -8964  15543       C  
+ATOM    845  O4'  DT D 208     -61.128  16.346  12.990  1.00289.02           O  
+ANISOU  845  O4'  DT D 208    42450  32621  34745  10777  -8438  15002       O  
+ATOM    846  C3'  DT D 208     -60.153  16.240  15.144  1.00292.53           C  
+ANISOU  846  C3'  DT D 208    43547  32558  35045  10617  -8387  15310       C  
+ATOM    847  O3'  DT D 208     -59.744  15.146  15.958  1.00301.94           O  
+ANISOU  847  O3'  DT D 208    44620  32827  37274  10385  -9558  15804       O  
+ATOM    848  C2'  DT D 208     -59.073  16.613  14.113  1.00283.12           C  
+ANISOU  848  C2'  DT D 208    41324  31983  34268  10532  -8071  14862       C  
+ATOM    849  C1'  DT D 208     -59.745  16.377  12.759  1.00283.26           C  
+ANISOU  849  C1'  DT D 208    41079  31929  34617  10592  -8578  14682       C  
+ATOM    850  N1   DT D 208     -59.467  17.449  11.757  1.00271.72           N  
+ANISOU  850  N1   DT D 208    38891  31229  33122   9905  -8066  14424       N  
+ATOM    851  C2   DT D 208     -58.190  17.616  11.275  1.00264.30           C  
+ANISOU  851  C2   DT D 208    38137  29847  32440   9741  -8761  13526       C  
+ATOM    852  O2   DT D 208     -57.249  16.927  11.623  1.00267.00           O  
+ANISOU  852  O2   DT D 208    38739  29509  33200  10024  -9392  12867       O  
+ATOM    853  N3   DT D 208     -58.051  18.623  10.359  1.00253.95           N  
+ANISOU  853  N3   DT D 208    37231  28725  30535   9248  -8719  12638       N  
+ATOM    854  C4   DT D 208     -59.042  19.461   9.886  1.00251.14           C  
+ANISOU  854  C4   DT D 208    36914  28831  29676   8724  -8423  13026       C  
+ATOM    855  O4   DT D 208     -58.820  20.339   9.060  1.00242.28           O  
+ANISOU  855  O4   DT D 208    36778  27837  27442   8768  -8097  11639       O  
+ATOM    856  C5   DT D 208     -60.357  19.232  10.432  1.00259.78           C  
+ANISOU  856  C5   DT D 208    37120  30285  31299   8202  -8129  14336       C  
+ATOM    857  C7   DT D 208     -61.514  20.079   9.997  1.00258.64           C  
+ANISOU  857  C7   DT D 208    37434  30113  30725   7305  -8471  14393       C  
+ATOM    858  C6   DT D 208     -60.504  18.249  11.329  1.00269.15           C  
+ANISOU  858  C6   DT D 208    38036  31654  32573   9260  -7452  14928       C  
+TER     859       DT D 208                                                      
+MASTER      264    0    0    0    0    0    0    6  855    4    0    5          
+END                                                                             
